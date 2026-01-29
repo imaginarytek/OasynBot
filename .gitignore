@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+
+# System
+.DS_Store
+
+# Data and Databases (avoiding large/generated files)
+data/binance_cache/
+data/chromadb/
+data/models/
+data/*.db
+data/trading_data.db
+data/hedgemony.db

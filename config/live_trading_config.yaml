@@ -1,0 +1,72 @@
+system:
+  project_name: "Hedgemony AI Trader (LIVE)"
+  mode: "live" 
+  dry_run: false # REAL MONEY
+  log_level: "INFO"
+  data_dir: "data"
+
+ingestion:
+  # Polling interval in seconds for RSS feeds
+  rss_poll_interval: 15
+  # Path to the list of RSS feeds (JSON or simple text)
+  rss_sources_file: "config/sources/fast_rss.json"
+  # Max older news to fetch on startup (hours)
+  history_lookback: 24
+  
+  # CryptoPanic API Settings
+  cryptopanic:
+    enabled: false
+    api_key: "e57be0321848e78062dbfbe749e4132ef256a74a"
+    interval: 60
+
+  # Twitter/X Ingestion
+  twitter:
+    enabled: true
+    poll_interval: 60
+    # Query for filtered stream or recent search
+    # Target Alpha Accounts: Wires & Politics
+    query: "(from:DeItaone OR from:Tier10k OR from:WaIterBIoomberg OR from:SecGensler OR from:FederalReserve OR from:AP OR from:realDonaldTrump OR from:DonaldJTrumpJr) -is:retweet" 
+    max_results: 10
+
+brain:
+  # Sentiment Model (FinBERT is optimized for financial text)
+  model_name: "ProsusAI/finbert"
+  device: "auto" # auto, cpu, cuda, mps (Mac)
+  
+  # Model Selection: "finbert" or "groq"
+  model_type: "groq"
+  
+  # Groq Settings
+  groq:
+    # api_key loaded from env GROQ_API_KEY
+    model: "llama-3.3-70b-versatile"
+    fallback_enabled: true
+  # Minimum confidence score (0-1) to consider a signal valid
+  confidence_threshold: 0.85
+  # Upgrade: Vector DB Settings
+  memory:
+    enabled: true
+    collection_name: "market_events"
+    path: "data/chromadb"
+
+trading:
+  # Primary exchange for execution
+  exchange: "hyperliquid" 
+  # Risk Management (V2.9.2 Hunter Strategy)
+  risk:
+    max_position_size_pct: 0.10 # 10% Size
+    max_leverage: 3 # 3x Leverage
+    global_stop_loss_pct: 0.035 # 3.5% Hard Stop
+    daily_loss_limit_pct: 0.10
+  
+  hyperliquid:
+    testnet: false # Mainnet (L1)
+    wallet_address: "${HYPERLIQUID_WALLET_ADDRESS}"
+    private_key: "${HYPERLIQUID_PRIVATE_KEY}"
+
+chronos:
+  # Historical Data Scraping
+  start_date: "2020-01-01"
+  data_sources:
+    - "yahoo_finance"
+    - "common_crawl_news"

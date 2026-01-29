@@ -1,0 +1,7 @@
+{
+  "trading": {
+    "risk": {
+      "max_leverage": 1
+    }
+  }
+}
