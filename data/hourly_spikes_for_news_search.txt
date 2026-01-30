@@ -1,0 +1,511 @@
+HOURLY VOLATILITY SPIKES - NEWS CORRELATION TASK
+====================================================================================================
+
+Instructions:
+1. For each spike, search Twitter/news for tier-1 announcements
+2. Search window: ±30 minutes from spike time
+3. Tier-1 sources: @federalreserve, @BLS_gov, @SECGov, @binance, etc.
+4. Record EXACT tweet timestamp if found
+
+----------------------------------------------------------------------------------------------------
+
+Spike #1
+Date/Time: 2025-04-10 03:00:00 UTC
+Z-Score: 13.80σ
+Move: +10.24%
+Price: $108.19 → $119.27
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-04-10_03:00:00_UTC since:2025-04-10_02:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #2
+Date/Time: 2025-03-03 01:00:00 UTC
+Z-Score: 13.70σ
+Move: +11.83%
+Price: $140.70 → $157.35
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-03-03_01:00:00_UTC since:2025-03-03_00:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #3
+Date/Time: 2024-08-05 23:00:00 UTC
+Z-Score: 12.75σ
+Move: +9.55%
+Price: $111.78 → $122.45
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-08-05_23:00:00_UTC since:2024-08-05_22:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #4
+Date/Time: 2024-03-06 05:00:00 UTC
+Z-Score: 12.30σ
+Move: -9.04%
+Price: $131.28 → $119.42
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-03-06_05:00:00_UTC since:2024-03-06_04:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #5
+Date/Time: 2024-06-18 11:00:00 UTC
+Z-Score: 11.85σ
+Move: -6.31%
+Price: $141.48 → $132.56
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-06-18_11:00:00_UTC since:2024-06-18_10:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #6
+Date/Time: 2025-08-23 00:00:00 UTC
+Z-Score: 11.31σ
+Move: +6.39%
+Price: $180.13 → $191.64
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-08-23_00:00:00_UTC since:2025-08-22_23:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #7
+Date/Time: 2024-06-27 23:00:00 UTC
+Z-Score: 10.42σ
+Move: +6.02%
+Price: $139.56 → $147.96
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-06-27_23:00:00_UTC since:2024-06-27_22:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #8
+Date/Time: 2024-11-17 14:00:00 UTC
+Z-Score: 9.65σ
+Move: +6.24%
+Price: $221.55 → $235.38
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-11-17_14:00:00_UTC since:2024-11-17_13:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #9
+Date/Time: 2025-03-03 02:00:00 UTC
+Z-Score: 9.38σ
+Move: +9.30%
+Price: $157.36 → $171.99
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-03-03_02:00:00_UTC since:2025-03-03_01:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #10
+Date/Time: 2025-01-20 07:00:00 UTC
+Z-Score: 9.35σ
+Move: -8.12%
+Price: $277.36 → $254.85
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-20_07:00:00_UTC since:2025-01-20_06:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #11
+Date/Time: 2024-03-01 10:00:00 UTC
+Z-Score: 8.61σ
+Move: +5.87%
+Price: $125.77 → $133.15
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-03-01_10:00:00_UTC since:2024-03-01_09:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #12
+Date/Time: 2024-06-12 22:00:00 UTC
+Z-Score: 8.58σ
+Move: +4.68%
+Price: $151.70 → $158.79
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-06-12_22:00:00_UTC since:2024-06-12_21:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #13
+Date/Time: 2026-01-19 09:00:00 UTC
+Z-Score: 8.56σ
+Move: -3.50%
+Price: $142.79 → $137.79
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2026-01-19_09:00:00_UTC since:2026-01-19_08:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #14
+Date/Time: 2025-01-16 21:00:00 UTC
+Z-Score: 8.49σ
+Move: +6.15%
+Price: $200.34 → $212.67
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-16_21:00:00_UTC since:2025-01-16_20:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #15
+Date/Time: 2025-01-19 14:00:00 UTC
+Z-Score: 8.46σ
+Move: +7.08%
+Price: $255.46 → $273.55
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-19_14:00:00_UTC since:2025-01-19_13:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #16
+Date/Time: 2024-04-13 04:00:00 UTC
+Z-Score: 8.31σ
+Move: -7.64%
+Price: $163.54 → $151.05
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-04-13_04:00:00_UTC since:2024-04-13_03:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #17
+Date/Time: 2024-11-02 01:00:00 UTC
+Z-Score: 8.29σ
+Move: -4.32%
+Price: $171.41 → $164.00
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-11-02_01:00:00_UTC since:2024-11-02_00:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #18
+Date/Time: 2026-01-22 02:00:00 UTC
+Z-Score: 8.28σ
+Move: -3.72%
+Price: $130.37 → $125.52
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2026-01-22_02:00:00_UTC since:2026-01-22_01:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #19
+Date/Time: 2025-10-11 01:00:00 UTC
+Z-Score: 8.27σ
+Move: -4.15%
+Price: $219.69 → $210.58
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-10-11_01:00:00_UTC since:2025-10-11_00:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #20
+Date/Time: 2024-07-08 18:00:00 UTC
+Z-Score: 8.16σ
+Move: +5.96%
+Price: $132.54 → $140.44
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-07-08_18:00:00_UTC since:2024-07-08_17:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #21
+Date/Time: 2024-07-04 11:00:00 UTC
+Z-Score: 8.02σ
+Move: -5.11%
+Price: $141.32 → $134.10
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-07-04_11:00:00_UTC since:2024-07-04_10:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #22
+Date/Time: 2025-02-25 08:00:00 UTC
+Z-Score: 7.91σ
+Move: -6.57%
+Price: $150.02 → $140.16
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-02-25_08:00:00_UTC since:2025-02-25_07:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #23
+Date/Time: 2025-01-19 01:00:00 UTC
+Z-Score: 7.88σ
+Move: +6.16%
+Price: $242.72 → $257.67
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-19_01:00:00_UTC since:2025-01-19_00:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #24
+Date/Time: 2025-11-04 01:00:00 UTC
+Z-Score: 7.83σ
+Move: -5.43%
+Price: $176.31 → $166.73
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-11-04_01:00:00_UTC since:2025-11-04_00:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #25
+Date/Time: 2024-08-06 10:00:00 UTC
+Z-Score: 7.80σ
+Move: +7.00%
+Price: $129.78 → $138.86
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-08-06_10:00:00_UTC since:2024-08-06_09:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #26
+Date/Time: 2025-10-11 06:00:00 UTC
+Z-Score: 7.64σ
+Move: -4.04%
+Price: $205.16 → $196.88
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-10-11_06:00:00_UTC since:2025-10-11_05:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #27
+Date/Time: 2025-08-14 22:00:00 UTC
+Z-Score: 7.61σ
+Move: -4.56%
+Price: $203.74 → $194.44
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-08-14_22:00:00_UTC since:2025-08-14_21:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #28
+Date/Time: 2025-05-23 21:00:00 UTC
+Z-Score: 7.53σ
+Move: -4.30%
+Price: $185.88 → $177.88
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-05-23_21:00:00_UTC since:2025-05-23_20:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #29
+Date/Time: 2024-02-29 18:00:00 UTC
+Z-Score: 7.51σ
+Move: +4.89%
+Price: $125.67 → $131.81
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-02-29_18:00:00_UTC since:2024-02-29_17:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #30
+Date/Time: 2025-06-13 10:00:00 UTC
+Z-Score: 7.38σ
+Move: -4.45%
+Price: $152.24 → $145.47
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-06-13_10:00:00_UTC since:2025-06-13_09:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #31
+Date/Time: 2024-10-16 00:00:00 UTC
+Z-Score: 7.35σ
+Move: -3.93%
+Price: $158.49 → $152.26
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-10-16_00:00:00_UTC since:2024-10-15_23:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #32
+Date/Time: 2025-04-03 08:00:00 UTC
+Z-Score: 7.15σ
+Move: -5.34%
+Price: $125.28 → $118.59
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-04-03_08:00:00_UTC since:2025-04-03_07:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #33
+Date/Time: 2025-01-19 02:00:00 UTC
+Z-Score: 7.12σ
+Move: -5.85%
+Price: $257.68 → $242.61
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-19_02:00:00_UTC since:2025-01-19_01:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #34
+Date/Time: 2025-07-01 01:00:00 UTC
+Z-Score: 6.99σ
+Move: +4.29%
+Price: $151.29 → $157.78
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-07-01_01:00:00_UTC since:2025-07-01_00:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #35
+Date/Time: 2024-08-05 10:00:00 UTC
+Z-Score: 6.99σ
+Move: -4.99%
+Price: $138.29 → $131.39
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-08-05_10:00:00_UTC since:2024-08-05_09:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #36
+Date/Time: 2024-08-03 00:00:00 UTC
+Z-Score: 6.98σ
+Move: -5.06%
+Price: $165.98 → $157.58
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-08-03_00:00:00_UTC since:2024-08-02_23:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #37
+Date/Time: 2024-04-14 05:00:00 UTC
+Z-Score: 6.95σ
+Move: -6.86%
+Price: $143.55 → $133.71
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-04-14_05:00:00_UTC since:2024-04-14_04:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #38
+Date/Time: 2024-04-14 07:00:00 UTC
+Z-Score: 6.95σ
+Move: +7.22%
+Price: $124.36 → $133.34
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-04-14_07:00:00_UTC since:2024-04-14_06:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #39
+Date/Time: 2025-01-20 10:00:00 UTC
+Z-Score: 6.92σ
+Move: -6.52%
+Price: $252.49 → $236.04
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-20_10:00:00_UTC since:2025-01-20_09:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #40
+Date/Time: 2025-01-15 23:00:00 UTC
+Z-Score: 6.89σ
+Move: +4.99%
+Price: $186.29 → $195.58
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-01-15_23:00:00_UTC since:2025-01-15_22:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #41
+Date/Time: 2025-06-22 07:00:00 UTC
+Z-Score: 6.88σ
+Move: -4.11%
+Price: $138.36 → $132.67
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-06-22_07:00:00_UTC since:2025-06-22_06:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #42
+Date/Time: 2024-04-14 06:00:00 UTC
+Z-Score: 6.88σ
+Move: -7.00%
+Price: $133.71 → $124.35
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-04-14_06:00:00_UTC since:2024-04-14_05:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #43
+Date/Time: 2024-12-20 18:00:00 UTC
+Z-Score: 6.86σ
+Move: -5.02%
+Price: $191.22 → $181.63
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-12-20_18:00:00_UTC since:2024-12-20_17:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #44
+Date/Time: 2026-01-19 10:00:00 UTC
+Z-Score: 6.72σ
+Move: -2.95%
+Price: $137.79 → $133.72
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2026-01-19_10:00:00_UTC since:2026-01-19_09:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #45
+Date/Time: 2024-11-12 19:00:00 UTC
+Z-Score: 6.58σ
+Move: -4.16%
+Price: $225.22 → $215.84
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-11-12_19:00:00_UTC since:2024-11-12_18:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #46
+Date/Time: 2025-10-13 00:00:00 UTC
+Z-Score: 6.51σ
+Move: +3.98%
+Price: $179.04 → $186.16
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-10-13_00:00:00_UTC since:2025-10-12_23:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #47
+Date/Time: 2024-11-06 12:00:00 UTC
+Z-Score: 6.45σ
+Move: +3.67%
+Price: $173.19 → $179.55
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2024-11-06_12:00:00_UTC since:2024-11-06_11:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #48
+Date/Time: 2025-04-07 16:00:00 UTC
+Z-Score: 6.43σ
+Move: -4.68%
+Price: $101.89 → $97.12
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-04-07_16:00:00_UTC since:2025-04-07_15:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #49
+Date/Time: 2025-05-09 20:00:00 UTC
+Z-Score: 6.38σ
+Move: +4.54%
+Price: $166.40 → $173.95
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2025-05-09_20:00:00_UTC since:2025-05-09_19:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+
+Spike #50
+Date/Time: 2026-01-26 05:00:00 UTC
+Z-Score: 6.35σ
+Move: -3.07%
+Price: $121.59 → $117.86
+Search Twitter: https://twitter.com/search?q=(from:federalreserve OR from:BLS_gov OR from:SECGov) until:2026-01-26_05:00:00_UTC since:2026-01-26_04:00:00_UTC
+News Event: _______________________________________________
+Exact Time: _______________________________________________
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,702 @@
+[
+  {
+    "date": "2024-01-09",
+    "time": "21:11:00",
+    "title": "SEC Twitter Hack - Fake Bitcoin ETF Approval",
+    "source": "@SECGov",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-01-10",
+    "time": "21:30:00",
+    "title": "Bitcoin Spot ETF Approved by SEC",
+    "source": "SEC.gov",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-01-11",
+    "time": "14:30:00",
+    "title": "Bitcoin ETF Trading Begins",
+    "source": "NYSE/NASDAQ",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-01-11",
+    "time": "13:30:00",
+    "title": "CPI Report January",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-02-02",
+    "time": "13:30:00",
+    "title": "Jobs Report February",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-02-13",
+    "time": "13:30:00",
+    "title": "CPI Report - Hotter Than Expected",
+    "source": "BLS",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-02-21",
+    "time": "19:00:00",
+    "title": "FOMC Minutes Release",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-03-08",
+    "time": "13:30:00",
+    "title": "Jobs Report March",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-03-11",
+    "time": "06:58:00",
+    "title": "BOME Whale Accumulation Detected",
+    "source": "On-chain",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-03-12",
+    "time": "12:30:00",
+    "title": "CPI Report March",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-03-16",
+    "time": "10:00:00",
+    "title": "Binance Announces BOME Listing",
+    "source": "Binance",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-03-20",
+    "time": "18:00:00",
+    "title": "FOMC Meeting March",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-04-10",
+    "time": "12:30:00",
+    "title": "CPI Report April",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-04-20",
+    "time": "00:09:00",
+    "title": "Bitcoin Halving",
+    "source": "Bitcoin Blockchain",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-05-01",
+    "time": "18:00:00",
+    "title": "FOMC Meeting May",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-05-12",
+    "time": "00:00:00",
+    "title": "Roaring Kitty Returns to Twitter",
+    "source": "@TheRoaringKitty",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-05-13",
+    "time": "14:30:00",
+    "title": "GameStop Meme Stock Rally",
+    "source": "Market Data",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-05-15",
+    "time": "12:30:00",
+    "title": "CPI Report May",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-05-23",
+    "time": "20:58:00",
+    "title": "Ethereum ETF Approved",
+    "source": "SEC.gov",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-06-12",
+    "time": "12:30:00",
+    "title": "CPI Cooling - Rate Cut Hopes",
+    "source": "BLS",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-06-12",
+    "time": "18:00:00",
+    "title": "FOMC Meeting June",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-07-09",
+    "time": "14:00:00",
+    "title": "Powell Dovish Testimony",
+    "source": "Federal Reserve",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-07-11",
+    "time": "12:30:00",
+    "title": "CPI Report July",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-07-23",
+    "time": "14:30:00",
+    "title": "Ethereum ETF Trading Begins",
+    "source": "NYSE/NASDAQ",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-07-31",
+    "time": "03:00:00",
+    "title": "Bank of Japan Rate Hike",
+    "source": "BoJ",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-07-31",
+    "time": "18:00:00",
+    "title": "FOMC Meeting July",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-08-05",
+    "time": "00:00:00",
+    "title": "Nikkei 225 Crashes 12%",
+    "source": "TSE",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-08-14",
+    "time": "12:30:00",
+    "title": "CPI Report August",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-08-23",
+    "time": "14:00:00",
+    "title": "Powell Jackson Hole Speech",
+    "source": "Federal Reserve",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-09-11",
+    "time": "12:30:00",
+    "title": "CPI Report September",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-09-18",
+    "time": "18:00:00",
+    "title": "Fed Cuts Rates 50bps",
+    "source": "Federal Reserve",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-10-04",
+    "time": "12:30:00",
+    "title": "Jobs Report Miss",
+    "source": "BLS",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-10-10",
+    "time": "12:30:00",
+    "title": "CPI Report October",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-11-06",
+    "time": "10:34:00",
+    "title": "Trump Election Called",
+    "source": "Associated Press",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-11-07",
+    "time": "19:00:00",
+    "title": "FOMC Meeting November",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-11-13",
+    "time": "13:30:00",
+    "title": "CPI Report November",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-12-11",
+    "time": "13:30:00",
+    "title": "CPI Report December",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-12-18",
+    "time": "19:00:00",
+    "title": "Fed December Rate Cut",
+    "source": "Federal Reserve",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-01-10",
+    "time": "13:30:00",
+    "title": "Jobs Report January 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-01-15",
+    "time": "13:30:00",
+    "title": "CPI Report January 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-01-20",
+    "time": "17:00:00",
+    "title": "Trump Inauguration",
+    "source": "Official Ceremony",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-01-29",
+    "time": "19:00:00",
+    "title": "FOMC Meeting January 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-02-07",
+    "time": "13:30:00",
+    "title": "Jobs Report February 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-02-12",
+    "time": "13:30:00",
+    "title": "CPI Report February 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-03-02",
+    "time": "12:24:00",
+    "title": "Trump Announces U.S. Crypto Reserve",
+    "source": "Truth Social",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-03-07",
+    "time": "13:30:00",
+    "title": "Jobs Report March 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-03-12",
+    "time": "12:30:00",
+    "title": "CPI Report March 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-03-19",
+    "time": "18:00:00",
+    "title": "FOMC Meeting March 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-04-04",
+    "time": "12:30:00",
+    "title": "Jobs Report April 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-04-09",
+    "time": "10:58:00",
+    "title": "SEC Closes Ethereum Investigation",
+    "source": "SEC.gov",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-04-10",
+    "time": "12:30:00",
+    "title": "CPI Report April 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-05-02",
+    "time": "12:30:00",
+    "title": "Jobs Report May 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-05-07",
+    "time": "18:00:00",
+    "title": "FOMC Meeting May 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-05-13",
+    "time": "12:30:00",
+    "title": "CPI Report May 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-06-11",
+    "time": "12:30:00",
+    "title": "CPI Report June 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-06-18",
+    "time": "18:00:00",
+    "title": "FOMC Meeting June 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-07-11",
+    "time": "12:30:00",
+    "title": "CPI Report July 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-07-30",
+    "time": "18:00:00",
+    "title": "FOMC Meeting July 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-08-13",
+    "time": "12:30:00",
+    "title": "CPI Report August 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-09-10",
+    "time": "12:30:00",
+    "title": "CPI Report September 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-09-17",
+    "time": "18:00:00",
+    "title": "FOMC Meeting September 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-10-10",
+    "time": "12:30:00",
+    "title": "CPI Report October 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-11-06",
+    "time": "19:00:00",
+    "title": "FOMC Meeting November 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-11-12",
+    "time": "13:30:00",
+    "title": "CPI Report November 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-12-10",
+    "time": "13:30:00",
+    "title": "CPI Report December 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-12-17",
+    "time": "19:00:00",
+    "title": "FOMC Meeting December 2025",
+    "source": "Federal Reserve",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-01-02",
+    "time": "TBD",
+    "title": "Orbit Chain Hack ($80M)",
+    "source": "On-chain",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-02-13",
+    "time": "TBD",
+    "title": "PlayDapp Exploit ($32M)",
+    "source": "On-chain",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-03-15",
+    "time": "TBD",
+    "title": "Munchables Hack ($62M)",
+    "source": "On-chain",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-05-31",
+    "time": "TBD",
+    "title": "DMM Bitcoin Hack ($300M) - Largest 2024",
+    "source": "DMM Bitcoin",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-07-18",
+    "time": "TBD",
+    "title": "WazirX Exchange Hack ($230M)",
+    "source": "WazirX",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-10-16",
+    "time": "TBD",
+    "title": "Radiant Capital Hack ($51M)",
+    "source": "On-chain",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2025-02-21",
+    "time": "TBD",
+    "title": "Bybit Hack ($1.4B) - Largest Ever",
+    "source": "Bybit",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2025-04-15",
+    "time": "TBD",
+    "title": "Bitget Exploit ($100M)",
+    "source": "Bitget",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2025-05-12",
+    "time": "TBD",
+    "title": "Cetus DEX Exploit ($223M)",
+    "source": "On-chain",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2025-07-10",
+    "time": "TBD",
+    "title": "CoinDCX Security Breach ($44M)",
+    "source": "CoinDCX",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2025-11-05",
+    "time": "TBD",
+    "title": "Balancer V2 Exploit ($128M)",
+    "source": "On-chain",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-04-13",
+    "time": "TBD",
+    "title": "Iran-Israel Conflict Escalation",
+    "source": "News Wires",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2024-10-01",
+    "time": "TBD",
+    "title": "Israel-Hezbollah Conflict Intensifies",
+    "source": "News Wires",
+    "sentiment": "bearish"
+  },
+  {
+    "date": "2025-02-15",
+    "time": "TBD",
+    "title": "Russia-Ukraine Peace Talks Begin",
+    "source": "News Wires",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-06-20",
+    "time": "TBD",
+    "title": "US-China Trade Deal Announced",
+    "source": "White House",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-01-25",
+    "time": "TBD",
+    "title": "Pump.fun Platform Launch",
+    "source": "Solana Ecosystem",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-05-15",
+    "time": "TBD",
+    "title": "BlackRock BUIDL Fund on Solana",
+    "source": "BlackRock",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-09-12",
+    "time": "TBD",
+    "title": "Securitize Adds Solana Support",
+    "source": "Securitize",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-01-15",
+    "time": "TBD",
+    "title": "Solana ETF Filings (VanEck, 21Shares)",
+    "source": "SEC Filings",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2025-08-20",
+    "time": "TBD",
+    "title": "Solana Firedancer Testnet Launch",
+    "source": "Jump Crypto",
+    "sentiment": "bullish"
+  },
+  {
+    "date": "2024-04-05",
+    "time": "12:30:00",
+    "title": "Jobs Report April 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-05-03",
+    "time": "12:30:00",
+    "title": "Jobs Report May 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-06-07",
+    "time": "12:30:00",
+    "title": "Jobs Report June 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-07-05",
+    "time": "12:30:00",
+    "title": "Jobs Report July 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-08-02",
+    "time": "12:30:00",
+    "title": "Jobs Report August 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-09-06",
+    "time": "12:30:00",
+    "title": "Jobs Report September 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-11-01",
+    "time": "12:30:00",
+    "title": "Jobs Report November 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2024-12-06",
+    "time": "13:30:00",
+    "title": "Jobs Report December 2024",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-06-06",
+    "time": "12:30:00",
+    "title": "Jobs Report June 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-07-03",
+    "time": "12:30:00",
+    "title": "Jobs Report July 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-08-01",
+    "time": "12:30:00",
+    "title": "Jobs Report August 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-09-05",
+    "time": "12:30:00",
+    "title": "Jobs Report September 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-10-03",
+    "time": "12:30:00",
+    "title": "Jobs Report October 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  },
+  {
+    "date": "2025-11-07",
+    "time": "13:30:00",
+    "title": "Jobs Report November 2025",
+    "source": "BLS",
+    "sentiment": "neutral"
+  }
+]

@@ -1,0 +1,1567 @@
+[
+  {
+    "event_id": 1,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-03 10:58:14 UTC",
+    "search_window_start": "2024-01-03 10:56:14 UTC",
+    "search_window_end": "2024-01-03 10:58:14 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-03_10:56:14_UTC until:2024-01-03_10:58:14_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 03 2024 10:56 UTC",
+    "price_move": "0.00%",
+    "volume_spike": "6.0x"
+  },
+  {
+    "event_id": 2,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-03 14:59:34 UTC",
+    "search_window_start": "2024-01-03 14:57:34 UTC",
+    "search_window_end": "2024-01-03 14:59:34 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-03_14:57:34_UTC until:2024-01-03_14:59:34_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 03 2024 14:57 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "6.7x"
+  },
+  {
+    "event_id": 3,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-05 13:58:07 UTC",
+    "search_window_start": "2024-01-05 13:56:07 UTC",
+    "search_window_end": "2024-01-05 13:58:07 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-05_13:56:07_UTC until:2024-01-05_13:58:07_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 05 2024 13:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "6.1x"
+  },
+  {
+    "event_id": 4,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-07 21:58:17 UTC",
+    "search_window_start": "2024-01-07 21:56:17 UTC",
+    "search_window_end": "2024-01-07 21:58:17 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-07_21:56:17_UTC until:2024-01-07_21:58:17_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 07 2024 21:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "6.9x"
+  },
+  {
+    "event_id": 5,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-09 03:58:18 UTC",
+    "search_window_start": "2024-01-09 03:56:18 UTC",
+    "search_window_end": "2024-01-09 03:58:18 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-09_03:56:18_UTC until:2024-01-09_03:58:18_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 09 2024 03:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "11.5x"
+  },
+  {
+    "event_id": 6,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-09 11:58:09 UTC",
+    "search_window_start": "2024-01-09 11:56:09 UTC",
+    "search_window_end": "2024-01-09 11:58:09 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-09_11:56:09_UTC until:2024-01-09_11:58:09_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 09 2024 11:56 UTC",
+    "price_move": "0.08%",
+    "volume_spike": "9.3x"
+  },
+  {
+    "event_id": 7,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-09 21:58:32 UTC",
+    "search_window_start": "2024-01-09 21:56:32 UTC",
+    "search_window_end": "2024-01-09 21:58:32 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-09_21:56:32_UTC until:2024-01-09_21:58:32_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 09 2024 21:56 UTC",
+    "price_move": "0.10%",
+    "volume_spike": "5.4x"
+  },
+  {
+    "event_id": 8,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-10 11:58:06 UTC",
+    "search_window_start": "2024-01-10 11:56:06 UTC",
+    "search_window_end": "2024-01-10 11:58:06 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-10_11:56:06_UTC until:2024-01-10_11:58:06_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 10 2024 11:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "5.6x"
+  },
+  {
+    "event_id": 9,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-10 20:59:07 UTC",
+    "search_window_start": "2024-01-10 20:57:07 UTC",
+    "search_window_end": "2024-01-10 20:59:07 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-10_20:57:07_UTC until:2024-01-10_20:59:07_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 10 2024 20:57 UTC",
+    "price_move": "0.15%",
+    "volume_spike": "6.3x"
+  },
+  {
+    "event_id": 10,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-11 09:58:34 UTC",
+    "search_window_start": "2024-01-11 09:56:34 UTC",
+    "search_window_end": "2024-01-11 09:58:34 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-11_09:56:34_UTC until:2024-01-11_09:58:34_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 11 2024 09:56 UTC",
+    "price_move": "0.00%",
+    "volume_spike": "5.2x"
+  },
+  {
+    "event_id": 11,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-11 14:59:14 UTC",
+    "search_window_start": "2024-01-11 14:57:14 UTC",
+    "search_window_end": "2024-01-11 14:59:14 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-11_14:57:14_UTC until:2024-01-11_14:59:14_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 11 2024 14:57 UTC",
+    "price_move": "0.10%",
+    "volume_spike": "5.2x"
+  },
+  {
+    "event_id": 12,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-12 14:58:32 UTC",
+    "search_window_start": "2024-01-12 14:56:32 UTC",
+    "search_window_end": "2024-01-12 14:58:32 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-12_14:56:32_UTC until:2024-01-12_14:58:32_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 12 2024 14:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "5.8x"
+  },
+  {
+    "event_id": 13,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-14 18:58:38 UTC",
+    "search_window_start": "2024-01-14 18:56:38 UTC",
+    "search_window_end": "2024-01-14 18:58:38 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-14_18:56:38_UTC until:2024-01-14_18:58:38_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 14 2024 18:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "6.0x"
+  },
+  {
+    "event_id": 14,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-19 16:59:03 UTC",
+    "search_window_start": "2024-01-19 16:57:03 UTC",
+    "search_window_end": "2024-01-19 16:59:03 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-19_16:57:03_UTC until:2024-01-19_16:59:03_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 19 2024 16:57 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "6.6x"
+  },
+  {
+    "event_id": 15,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-26 09:58:19 UTC",
+    "search_window_start": "2024-01-26 09:56:19 UTC",
+    "search_window_end": "2024-01-26 09:58:19 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-26_09:56:19_UTC until:2024-01-26_09:58:19_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 26 2024 09:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "6.3x"
+  },
+  {
+    "event_id": 16,
+    "title": "Spot Bitcoin ETF Anticipation Volatility",
+    "current_db_timestamp": "2024-01-10 21:30:00+00:00",
+    "actual_impulse_time": "2024-01-29 14:58:29 UTC",
+    "search_window_start": "2024-01-29 14:56:29 UTC",
+    "search_window_end": "2024-01-29 14:58:29 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-01-29_14:56:29_UTC until:2024-01-29_14:58:29_UTC",
+    "google_query": "Bitcoin ETF SEC approval January 29 2024 14:56 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "8.3x"
+  },
+  {
+    "event_id": 17,
+    "title": "Post-ETF Flows Normailzation",
+    "current_db_timestamp": "2024-02-01 01:00:00+00:00",
+    "actual_impulse_time": "2024-02-01 00:58:15 UTC",
+    "search_window_start": "2024-02-01 00:56:15 UTC",
+    "search_window_end": "2024-02-01 00:58:15 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-02-01_00:56:15_UTC until:2024-02-01_00:58:15_UTC",
+    "google_query": "Bitcoin ETF SEC approval February 01 2024 00:56 UTC",
+    "price_move": "0.00%",
+    "volume_spike": "6.2x"
+  },
+  {
+    "event_id": 18,
+    "title": "Post-ETF Flows Normailzation",
+    "current_db_timestamp": "2024-02-09 21:00:00+00:00",
+    "actual_impulse_time": "2024-02-09 20:58:50 UTC",
+    "search_window_start": "2024-02-09 20:56:50 UTC",
+    "search_window_end": "2024-02-09 20:58:50 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-02-09_20:56:50_UTC until:2024-02-09_20:58:50_UTC",
+    "google_query": "Bitcoin ETF SEC approval February 09 2024 20:56 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "5.5x"
+  },
+  {
+    "event_id": 19,
+    "title": "Post-ETF Flows Normailzation",
+    "current_db_timestamp": "2024-02-28 21:00:00+00:00",
+    "actual_impulse_time": "2024-02-28 20:58:30 UTC",
+    "search_window_start": "2024-02-28 20:56:30 UTC",
+    "search_window_end": "2024-02-28 20:58:30 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-02-28_20:56:30_UTC until:2024-02-28_20:58:30_UTC",
+    "google_query": "Bitcoin ETF SEC approval February 28 2024 20:56 UTC",
+    "price_move": "0.09%",
+    "volume_spike": "5.2x"
+  },
+  {
+    "event_id": 20,
+    "title": "Post-ETF Flows Normailzation",
+    "current_db_timestamp": "2024-02-29 00:00:00+00:00",
+    "actual_impulse_time": "2024-02-28 23:58:14 UTC",
+    "search_window_start": "2024-02-28 23:56:14 UTC",
+    "search_window_end": "2024-02-28 23:58:14 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-02-28_23:56:14_UTC until:2024-02-28_23:58:14_UTC",
+    "google_query": "Bitcoin ETF SEC approval February 28 2024 23:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "10.9x"
+  },
+  {
+    "event_id": 21,
+    "title": "Post-ETF Flows Normailzation",
+    "current_db_timestamp": "2024-02-29 08:00:00+00:00",
+    "actual_impulse_time": "2024-02-29 07:58:54 UTC",
+    "search_window_start": "2024-02-29 07:56:54 UTC",
+    "search_window_end": "2024-02-29 07:58:54 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-02-29_07:56:54_UTC until:2024-02-29_07:58:54_UTC",
+    "google_query": "Bitcoin ETF SEC approval February 29 2024 07:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "5.7x"
+  },
+  {
+    "event_id": 23,
+    "title": "Bitcoin Reaches All-Time High then Crashes",
+    "current_db_timestamp": "2024-03-05 16:00:00+00:00",
+    "actual_impulse_time": "2024-03-05 15:58:20 UTC",
+    "search_window_start": "2024-03-05 15:56:20 UTC",
+    "search_window_end": "2024-03-05 15:58:20 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-03-05_15:56:20_UTC until:2024-03-05_15:58:20_UTC",
+    "google_query": "Solana SOL crypto March 05 2024 15:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "5.1x"
+  },
+  {
+    "event_id": 24,
+    "title": "Bitcoin Reaches All-Time High then Crashes",
+    "current_db_timestamp": "2024-03-05 19:00:00+00:00",
+    "actual_impulse_time": "2024-03-05 18:58:28 UTC",
+    "search_window_start": "2024-03-05 18:56:28 UTC",
+    "search_window_end": "2024-03-05 18:58:28 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-03-05_18:56:28_UTC until:2024-03-05_18:58:28_UTC",
+    "google_query": "Solana SOL crypto March 05 2024 18:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "7.3x"
+  },
+  {
+    "event_id": 26,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-11 06:58:11 UTC",
+    "search_window_start": "2024-03-11 06:56:11 UTC",
+    "search_window_end": "2024-03-11 06:58:11 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-11_06:56:11_UTC until:2024-03-11_06:58:11_UTC",
+    "google_query": "BOME Book of Meme Binance March 11 2024 06:56 UTC",
+    "price_move": "0.08%",
+    "volume_spike": "9.6x"
+  },
+  {
+    "event_id": 27,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-13 20:58:13 UTC",
+    "search_window_start": "2024-03-13 20:56:13 UTC",
+    "search_window_end": "2024-03-13 20:58:13 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-13_20:56:13_UTC until:2024-03-13_20:58:13_UTC",
+    "google_query": "BOME Book of Meme Binance March 13 2024 20:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "6.3x"
+  },
+  {
+    "event_id": 28,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-14 12:59:15 UTC",
+    "search_window_start": "2024-03-14 12:57:15 UTC",
+    "search_window_end": "2024-03-14 12:59:15 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-14_12:57:15_UTC until:2024-03-14_12:59:15_UTC",
+    "google_query": "BOME Book of Meme Binance March 14 2024 12:57 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "10.6x"
+  },
+  {
+    "event_id": 29,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-14 19:58:17 UTC",
+    "search_window_start": "2024-03-14 19:56:17 UTC",
+    "search_window_end": "2024-03-14 19:58:17 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-14_19:56:17_UTC until:2024-03-14_19:58:17_UTC",
+    "google_query": "BOME Book of Meme Binance March 14 2024 19:56 UTC",
+    "price_move": "0.21%",
+    "volume_spike": "10.5x"
+  },
+  {
+    "event_id": 30,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-15 07:58:16 UTC",
+    "search_window_start": "2024-03-15 07:56:16 UTC",
+    "search_window_end": "2024-03-15 07:58:16 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-15_07:56:16_UTC until:2024-03-15_07:58:16_UTC",
+    "google_query": "BOME Book of Meme Binance March 15 2024 07:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "5.8x"
+  },
+  {
+    "event_id": 31,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-15 12:59:14 UTC",
+    "search_window_start": "2024-03-15 12:57:14 UTC",
+    "search_window_end": "2024-03-15 12:59:14 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-15_12:57:14_UTC until:2024-03-15_12:59:14_UTC",
+    "google_query": "BOME Book of Meme Binance March 15 2024 12:57 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "6.2x"
+  },
+  {
+    "event_id": 32,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-15 19:58:39 UTC",
+    "search_window_start": "2024-03-15 19:56:39 UTC",
+    "search_window_end": "2024-03-15 19:58:39 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-15_19:56:39_UTC until:2024-03-15_19:58:39_UTC",
+    "google_query": "BOME Book of Meme Binance March 15 2024 19:56 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "7.2x"
+  },
+  {
+    "event_id": 33,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-17 09:58:26 UTC",
+    "search_window_start": "2024-03-17 09:56:26 UTC",
+    "search_window_end": "2024-03-17 09:58:26 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-17_09:56:26_UTC until:2024-03-17_09:58:26_UTC",
+    "google_query": "BOME Book of Meme Binance March 17 2024 09:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "14.7x"
+  },
+  {
+    "event_id": 34,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-19 00:58:24 UTC",
+    "search_window_start": "2024-03-19 00:56:24 UTC",
+    "search_window_end": "2024-03-19 00:58:24 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-19_00:56:24_UTC until:2024-03-19_00:58:24_UTC",
+    "google_query": "BOME Book of Meme Binance March 19 2024 00:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "6.1x"
+  },
+  {
+    "event_id": 35,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-19 07:58:49 UTC",
+    "search_window_start": "2024-03-19 07:56:49 UTC",
+    "search_window_end": "2024-03-19 07:58:49 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-19_07:56:49_UTC until:2024-03-19_07:58:49_UTC",
+    "google_query": "BOME Book of Meme Binance March 19 2024 07:56 UTC",
+    "price_move": "0.08%",
+    "volume_spike": "6.0x"
+  },
+  {
+    "event_id": 36,
+    "title": "Binance Lists Book of Meme (BOME)",
+    "current_db_timestamp": "2024-03-16 12:30:00+00:00",
+    "actual_impulse_time": "2024-03-19 19:59:20 UTC",
+    "search_window_start": "2024-03-19 19:57:20 UTC",
+    "search_window_end": "2024-03-19 19:59:20 UTC",
+    "keywords": [
+      "BOME",
+      "Book of Meme",
+      "Binance",
+      "listing",
+      "Solana"
+    ],
+    "twitter_query": "(BOME OR Book of Meme OR Binance OR listing OR Solana) since:2024-03-19_19:57:20_UTC until:2024-03-19_19:59:20_UTC",
+    "google_query": "BOME Book of Meme Binance March 19 2024 19:57 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "11.6x"
+  },
+  {
+    "event_id": 40,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-01 05:00:00+00:00",
+    "actual_impulse_time": "2024-04-01 04:59:04 UTC",
+    "search_window_start": "2024-04-01 04:57:04 UTC",
+    "search_window_end": "2024-04-01 04:59:04 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-01_04:57:04_UTC until:2024-04-01_04:59:04_UTC",
+    "google_query": "Solana SOL crypto April 01 2024 04:57 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "9.9x"
+  },
+  {
+    "event_id": 41,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-12 18:00:00+00:00",
+    "actual_impulse_time": "2024-04-12 17:59:11 UTC",
+    "search_window_start": "2024-04-12 17:57:11 UTC",
+    "search_window_end": "2024-04-12 17:59:11 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-12_17:57:11_UTC until:2024-04-12_17:59:11_UTC",
+    "google_query": "Solana SOL crypto April 12 2024 17:57 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "6.9x"
+  },
+  {
+    "event_id": 42,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-13 01:00:00+00:00",
+    "actual_impulse_time": "2024-04-13 00:58:27 UTC",
+    "search_window_start": "2024-04-13 00:56:27 UTC",
+    "search_window_end": "2024-04-13 00:58:27 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-13_00:56:27_UTC until:2024-04-13_00:58:27_UTC",
+    "google_query": "Solana SOL crypto April 13 2024 00:56 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "5.5x"
+  },
+  {
+    "event_id": 43,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-13 17:00:00+00:00",
+    "actual_impulse_time": "2024-04-13 16:59:29 UTC",
+    "search_window_start": "2024-04-13 16:57:29 UTC",
+    "search_window_end": "2024-04-13 16:59:29 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-13_16:57:29_UTC until:2024-04-13_16:59:29_UTC",
+    "google_query": "Solana SOL crypto April 13 2024 16:57 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "5.8x"
+  },
+  {
+    "event_id": 44,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-13 21:00:00+00:00",
+    "actual_impulse_time": "2024-04-13 21:01:03 UTC",
+    "search_window_start": "2024-04-13 20:59:03 UTC",
+    "search_window_end": "2024-04-13 21:01:03 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-13_20:59:03_UTC until:2024-04-13_21:01:03_UTC",
+    "google_query": "Solana SOL crypto April 13 2024 20:59 UTC",
+    "price_move": "0.15%",
+    "volume_spike": "9.8x"
+  },
+  {
+    "event_id": 45,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-14 04:00:00+00:00",
+    "actual_impulse_time": "2024-04-14 03:59:04 UTC",
+    "search_window_start": "2024-04-14 03:57:04 UTC",
+    "search_window_end": "2024-04-14 03:59:04 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-14_03:57:04_UTC until:2024-04-14_03:59:04_UTC",
+    "google_query": "Solana SOL crypto April 14 2024 03:57 UTC",
+    "price_move": "0.15%",
+    "volume_spike": "12.0x"
+  },
+  {
+    "event_id": 46,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-14 18:00:00+00:00",
+    "actual_impulse_time": "2024-04-14 17:59:36 UTC",
+    "search_window_start": "2024-04-14 17:57:36 UTC",
+    "search_window_end": "2024-04-14 17:59:36 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-14_17:57:36_UTC until:2024-04-14_17:59:36_UTC",
+    "google_query": "Solana SOL crypto April 14 2024 17:57 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "9.4x"
+  },
+  {
+    "event_id": 47,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-14 22:00:00+00:00",
+    "actual_impulse_time": "2024-04-14 21:58:08 UTC",
+    "search_window_start": "2024-04-14 21:56:08 UTC",
+    "search_window_end": "2024-04-14 21:58:08 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-14_21:56:08_UTC until:2024-04-14_21:58:08_UTC",
+    "google_query": "Solana SOL crypto April 14 2024 21:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "6.3x"
+  },
+  {
+    "event_id": 48,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-15 14:00:00+00:00",
+    "actual_impulse_time": "2024-04-15 14:01:11 UTC",
+    "search_window_start": "2024-04-15 13:59:11 UTC",
+    "search_window_end": "2024-04-15 14:01:11 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-15_13:59:11_UTC until:2024-04-15_14:01:11_UTC",
+    "google_query": "Solana SOL crypto April 15 2024 13:59 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "8.1x"
+  },
+  {
+    "event_id": 49,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-16 16:00:00+00:00",
+    "actual_impulse_time": "2024-04-16 15:59:49 UTC",
+    "search_window_start": "2024-04-16 15:57:49 UTC",
+    "search_window_end": "2024-04-16 15:59:49 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-16_15:57:49_UTC until:2024-04-16_15:59:49_UTC",
+    "google_query": "Solana SOL crypto April 16 2024 15:57 UTC",
+    "price_move": "0.13%",
+    "volume_spike": "10.7x"
+  },
+  {
+    "event_id": 50,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-17 17:00:00+00:00",
+    "actual_impulse_time": "2024-04-17 16:58:19 UTC",
+    "search_window_start": "2024-04-17 16:56:19 UTC",
+    "search_window_end": "2024-04-17 16:58:19 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-17_16:56:19_UTC until:2024-04-17_16:58:19_UTC",
+    "google_query": "Solana SOL crypto April 17 2024 16:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "6.2x"
+  },
+  {
+    "event_id": 51,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-18 14:00:00+00:00",
+    "actual_impulse_time": "2024-04-18 13:58:50 UTC",
+    "search_window_start": "2024-04-18 13:56:50 UTC",
+    "search_window_end": "2024-04-18 13:58:50 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-18_13:56:50_UTC until:2024-04-18_13:58:50_UTC",
+    "google_query": "Solana SOL crypto April 18 2024 13:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "8.5x"
+  },
+  {
+    "event_id": 52,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-19 01:00:00+00:00",
+    "actual_impulse_time": "2024-04-19 00:58:38 UTC",
+    "search_window_start": "2024-04-19 00:56:38 UTC",
+    "search_window_end": "2024-04-19 00:58:38 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-19_00:56:38_UTC until:2024-04-19_00:58:38_UTC",
+    "google_query": "Solana SOL crypto April 19 2024 00:56 UTC",
+    "price_move": "0.14%",
+    "volume_spike": "21.1x"
+  },
+  {
+    "event_id": 53,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-19 06:00:00+00:00",
+    "actual_impulse_time": "2024-04-19 05:58:13 UTC",
+    "search_window_start": "2024-04-19 05:56:13 UTC",
+    "search_window_end": "2024-04-19 05:58:13 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-19_05:56:13_UTC until:2024-04-19_05:58:13_UTC",
+    "google_query": "Solana SOL crypto April 19 2024 05:56 UTC",
+    "price_move": "0.09%",
+    "volume_spike": "7.3x"
+  },
+  {
+    "event_id": 54,
+    "title": "Bitcoin Halving Uncertainty",
+    "current_db_timestamp": "2024-04-30 08:00:00+00:00",
+    "actual_impulse_time": "2024-04-30 07:58:16 UTC",
+    "search_window_start": "2024-04-30 07:56:16 UTC",
+    "search_window_end": "2024-04-30 07:58:16 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2024-04-30_07:56:16_UTC until:2024-04-30_07:58:16_UTC",
+    "google_query": "Solana SOL crypto April 30 2024 07:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "13.0x"
+  },
+  {
+    "event_id": 60,
+    "title": "Roaring Kitty Returns: 'Lean Forward' Meme",
+    "current_db_timestamp": "2024-05-13 00:00:00+00:00",
+    "actual_impulse_time": "2024-05-10 13:58:09 UTC",
+    "search_window_start": "2024-05-10 13:56:09 UTC",
+    "search_window_end": "2024-05-10 13:58:09 UTC",
+    "keywords": [
+      "Roaring Kitty",
+      "GameStop",
+      "GME",
+      "Keith Gill"
+    ],
+    "twitter_query": "(Roaring Kitty OR GameStop OR GME OR Keith Gill) since:2024-05-10_13:56:09_UTC until:2024-05-10_13:58:09_UTC",
+    "google_query": "Roaring Kitty GameStop GME May 10 2024 13:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "9.8x"
+  },
+  {
+    "event_id": 61,
+    "title": "Roaring Kitty Returns: 'Lean Forward' Meme",
+    "current_db_timestamp": "2024-05-13 00:00:00+00:00",
+    "actual_impulse_time": "2024-05-15 11:58:19 UTC",
+    "search_window_start": "2024-05-15 11:56:19 UTC",
+    "search_window_end": "2024-05-15 11:58:19 UTC",
+    "keywords": [
+      "Roaring Kitty",
+      "GameStop",
+      "GME",
+      "Keith Gill"
+    ],
+    "twitter_query": "(Roaring Kitty OR GameStop OR GME OR Keith Gill) since:2024-05-15_11:56:19_UTC until:2024-05-15_11:58:19_UTC",
+    "google_query": "Roaring Kitty GameStop GME May 15 2024 11:56 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "11.0x"
+  },
+  {
+    "event_id": 62,
+    "title": "ETF Odds Increased to 75%",
+    "current_db_timestamp": "2024-05-20 19:00:00+00:00",
+    "actual_impulse_time": "2024-05-20 18:58:15 UTC",
+    "search_window_start": "2024-05-20 18:56:15 UTC",
+    "search_window_end": "2024-05-20 18:58:15 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-05-20_18:56:15_UTC until:2024-05-20_18:58:15_UTC",
+    "google_query": "Bitcoin ETF SEC approval May 20 2024 18:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "7.4x"
+  },
+  {
+    "event_id": 63,
+    "title": "Approval of Ether Spot ETFs",
+    "current_db_timestamp": "2024-05-23 22:00:00+00:00",
+    "actual_impulse_time": "2024-05-23 20:58:17 UTC",
+    "search_window_start": "2024-05-23 20:56:17 UTC",
+    "search_window_end": "2024-05-23 20:58:17 UTC",
+    "keywords": [
+      "Bitcoin ETF",
+      "SEC",
+      "approval",
+      "Gensler"
+    ],
+    "twitter_query": "(Bitcoin ETF OR SEC OR approval OR Gensler) since:2024-05-23_20:56:17_UTC until:2024-05-23_20:58:17_UTC",
+    "google_query": "Bitcoin ETF SEC approval May 23 2024 20:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "5.1x"
+  },
+  {
+    "event_id": 64,
+    "title": "CPI / FOMC Data Release",
+    "current_db_timestamp": "2024-06-12 12:00:00+00:00",
+    "actual_impulse_time": "2024-06-12 11:59:18 UTC",
+    "search_window_start": "2024-06-12 11:57:18 UTC",
+    "search_window_end": "2024-06-12 11:59:18 UTC",
+    "keywords": [
+      "CPI",
+      "inflation",
+      "FOMC",
+      "Fed",
+      "economic data"
+    ],
+    "twitter_query": "(CPI OR inflation OR FOMC OR Fed OR economic data) since:2024-06-12_11:57:18_UTC until:2024-06-12_11:59:18_UTC",
+    "google_query": "CPI inflation FOMC June 12 2024 11:57 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "16.5x"
+  },
+  {
+    "event_id": 65,
+    "title": "CPI / FOMC Data Release",
+    "current_db_timestamp": "2024-06-18 01:00:00+00:00",
+    "actual_impulse_time": "2024-06-18 00:58:14 UTC",
+    "search_window_start": "2024-06-18 00:56:14 UTC",
+    "search_window_end": "2024-06-18 00:58:14 UTC",
+    "keywords": [
+      "CPI",
+      "inflation",
+      "FOMC",
+      "Fed",
+      "economic data"
+    ],
+    "twitter_query": "(CPI OR inflation OR FOMC OR Fed OR economic data) since:2024-06-18_00:56:14_UTC until:2024-06-18_00:58:14_UTC",
+    "google_query": "CPI inflation FOMC June 18 2024 00:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "12.8x"
+  },
+  {
+    "event_id": 66,
+    "title": "CPI / FOMC Data Release",
+    "current_db_timestamp": "2024-06-27 13:00:00+00:00",
+    "actual_impulse_time": "2024-06-27 12:58:59 UTC",
+    "search_window_start": "2024-06-27 12:56:59 UTC",
+    "search_window_end": "2024-06-27 12:58:59 UTC",
+    "keywords": [
+      "CPI",
+      "inflation",
+      "FOMC",
+      "Fed",
+      "economic data"
+    ],
+    "twitter_query": "(CPI OR inflation OR FOMC OR Fed OR economic data) since:2024-06-27_12:56:59_UTC until:2024-06-27_12:58:59_UTC",
+    "google_query": "CPI inflation FOMC June 27 2024 12:56 UTC",
+    "price_move": "0.00%",
+    "volume_spike": "8.4x"
+  },
+  {
+    "event_id": 78,
+    "title": "Nikkei 225 Plunges 12% in Historic Rout",
+    "current_db_timestamp": "2024-08-05 00:00:00+00:00",
+    "actual_impulse_time": "2024-08-04 23:58:57 UTC",
+    "search_window_start": "2024-08-04 23:56:57 UTC",
+    "search_window_end": "2024-08-04 23:58:57 UTC",
+    "keywords": [
+      "Nikkei",
+      "Japan",
+      "crash",
+      "market"
+    ],
+    "twitter_query": "(Nikkei OR Japan OR crash OR market) since:2024-08-04_23:56:57_UTC until:2024-08-04_23:58:57_UTC",
+    "google_query": "Nikkei Japan crash August 04 2024 23:56 UTC",
+    "price_move": "0.00%",
+    "volume_spike": "5.3x"
+  },
+  {
+    "event_id": 79,
+    "title": "Nikkei 225 Plunges 12% in Historic Rout",
+    "current_db_timestamp": "2024-08-05 00:00:00+00:00",
+    "actual_impulse_time": "2024-08-05 02:58:51 UTC",
+    "search_window_start": "2024-08-05 02:56:51 UTC",
+    "search_window_end": "2024-08-05 02:58:51 UTC",
+    "keywords": [
+      "Nikkei",
+      "Japan",
+      "crash",
+      "market"
+    ],
+    "twitter_query": "(Nikkei OR Japan OR crash OR market) since:2024-08-05_02:56:51_UTC until:2024-08-05_02:58:51_UTC",
+    "google_query": "Nikkei Japan crash August 05 2024 02:56 UTC",
+    "price_move": "0.12%",
+    "volume_spike": "8.4x"
+  },
+  {
+    "event_id": 80,
+    "title": "Nikkei 225 Plunges 12% in Historic Rout",
+    "current_db_timestamp": "2024-08-05 00:00:00+00:00",
+    "actual_impulse_time": "2024-08-05 06:58:37 UTC",
+    "search_window_start": "2024-08-05 06:56:37 UTC",
+    "search_window_end": "2024-08-05 06:58:37 UTC",
+    "keywords": [
+      "Nikkei",
+      "Japan",
+      "crash",
+      "market"
+    ],
+    "twitter_query": "(Nikkei OR Japan OR crash OR market) since:2024-08-05_06:56:37_UTC until:2024-08-05_06:58:37_UTC",
+    "google_query": "Nikkei Japan crash August 05 2024 06:56 UTC",
+    "price_move": "0.24%",
+    "volume_spike": "6.1x"
+  },
+  {
+    "event_id": 81,
+    "title": "Nikkei 225 Plunges 12% in Historic Rout",
+    "current_db_timestamp": "2024-08-05 00:00:00+00:00",
+    "actual_impulse_time": "2024-08-05 09:58:51 UTC",
+    "search_window_start": "2024-08-05 09:56:51 UTC",
+    "search_window_end": "2024-08-05 09:58:51 UTC",
+    "keywords": [
+      "Nikkei",
+      "Japan",
+      "crash",
+      "market"
+    ],
+    "twitter_query": "(Nikkei OR Japan OR crash OR market) since:2024-08-05_09:56:51_UTC until:2024-08-05_09:58:51_UTC",
+    "google_query": "Nikkei Japan crash August 05 2024 09:56 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "12.7x"
+  },
+  {
+    "event_id": 82,
+    "title": "Nikkei 225 Plunges 12% in Historic Rout",
+    "current_db_timestamp": "2024-08-05 00:00:00+00:00",
+    "actual_impulse_time": "2024-08-05 12:59:09 UTC",
+    "search_window_start": "2024-08-05 12:57:09 UTC",
+    "search_window_end": "2024-08-05 12:59:09 UTC",
+    "keywords": [
+      "Nikkei",
+      "Japan",
+      "crash",
+      "market"
+    ],
+    "twitter_query": "(Nikkei OR Japan OR crash OR market) since:2024-08-05_12:57:09_UTC until:2024-08-05_12:59:09_UTC",
+    "google_query": "Nikkei Japan crash August 05 2024 12:57 UTC",
+    "price_move": "0.07%",
+    "volume_spike": "6.1x"
+  },
+  {
+    "event_id": 83,
+    "title": "Nikkei 225 Plunges 12% in Historic Rout",
+    "current_db_timestamp": "2024-08-05 00:00:00+00:00",
+    "actual_impulse_time": "2024-08-05 17:58:54 UTC",
+    "search_window_start": "2024-08-05 17:56:54 UTC",
+    "search_window_end": "2024-08-05 17:58:54 UTC",
+    "keywords": [
+      "Nikkei",
+      "Japan",
+      "crash",
+      "market"
+    ],
+    "twitter_query": "(Nikkei OR Japan OR crash OR market) since:2024-08-05_17:56:54_UTC until:2024-08-05_17:58:54_UTC",
+    "google_query": "Nikkei Japan crash August 05 2024 17:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "5.5x"
+  },
+  {
+    "event_id": 176,
+    "title": "Jackson Hole Speech: Policy Adjustment",
+    "current_db_timestamp": "2024-08-23 14:00:00+00:00",
+    "actual_impulse_time": "2025-08-22 13:58:47 UTC",
+    "search_window_start": "2025-08-22 13:56:47 UTC",
+    "search_window_end": "2025-08-22 13:58:47 UTC",
+    "keywords": [
+      "Powell",
+      "Fed",
+      "Jackson Hole",
+      "interest rate",
+      "policy"
+    ],
+    "twitter_query": "(Powell OR Fed OR Jackson Hole OR interest rate OR policy) since:2025-08-22_13:56:47_UTC until:2025-08-22_13:58:47_UTC",
+    "google_query": "Powell Fed Jackson Hole August 22 2025 13:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "6.6x"
+  },
+  {
+    "event_id": 101,
+    "title": "Trump Elected President",
+    "current_db_timestamp": "2024-11-06 10:34:00+00:00",
+    "actual_impulse_time": "2024-11-06 01:58:08 UTC",
+    "search_window_start": "2024-11-06 01:56:08 UTC",
+    "search_window_end": "2024-11-06 01:58:08 UTC",
+    "keywords": [
+      "Trump",
+      "crypto",
+      "reserve",
+      "bitcoin",
+      "executive order"
+    ],
+    "twitter_query": "(Trump OR crypto OR reserve OR bitcoin OR executive order) since:2024-11-06_01:56:08_UTC until:2024-11-06_01:58:08_UTC",
+    "google_query": "Trump crypto reserve November 06 2024 01:56 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "6.6x"
+  },
+  {
+    "event_id": 118,
+    "title": "Solana Network Congestion Alert",
+    "current_db_timestamp": "2025-01-19 04:00:00+00:00",
+    "actual_impulse_time": "2025-01-19 03:59:22 UTC",
+    "search_window_start": "2025-01-19 03:57:22 UTC",
+    "search_window_end": "2025-01-19 03:59:22 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-01-19_03:57:22_UTC until:2025-01-19_03:59:22_UTC",
+    "google_query": "Solana SOL crypto January 19 2025 03:57 UTC",
+    "price_move": "0.19%",
+    "volume_spike": "24.0x"
+  },
+  {
+    "event_id": 119,
+    "title": "Solana Network Congestion Alert",
+    "current_db_timestamp": "2025-01-19 10:00:00+00:00",
+    "actual_impulse_time": "2025-01-19 09:58:14 UTC",
+    "search_window_start": "2025-01-19 09:56:14 UTC",
+    "search_window_end": "2025-01-19 09:58:14 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-01-19_09:56:14_UTC until:2025-01-19_09:58:14_UTC",
+    "google_query": "Solana SOL crypto January 19 2025 09:56 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "5.2x"
+  },
+  {
+    "event_id": 120,
+    "title": "Solana Network Congestion Alert",
+    "current_db_timestamp": "2025-01-19 14:00:00+00:00",
+    "actual_impulse_time": "2025-01-19 13:58:10 UTC",
+    "search_window_start": "2025-01-19 13:56:10 UTC",
+    "search_window_end": "2025-01-19 13:58:10 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-01-19_13:56:10_UTC until:2025-01-19_13:58:10_UTC",
+    "google_query": "Solana SOL crypto January 19 2025 13:56 UTC",
+    "price_move": "0.17%",
+    "volume_spike": "5.2x"
+  },
+  {
+    "event_id": 121,
+    "title": "Solana Network Congestion Alert",
+    "current_db_timestamp": "2025-01-19 21:00:00+00:00",
+    "actual_impulse_time": "2025-01-19 20:59:02 UTC",
+    "search_window_start": "2025-01-19 20:57:02 UTC",
+    "search_window_end": "2025-01-19 20:59:02 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-01-19_20:57:02_UTC until:2025-01-19_20:59:02_UTC",
+    "google_query": "Solana SOL crypto January 19 2025 20:57 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "5.6x"
+  },
+  {
+    "event_id": 130,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-02 03:00:00+00:00",
+    "actual_impulse_time": "2025-02-02 02:58:39 UTC",
+    "search_window_start": "2025-02-02 02:56:39 UTC",
+    "search_window_end": "2025-02-02 02:58:39 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-02_02:56:39_UTC until:2025-02-02_02:58:39_UTC",
+    "google_query": "Solana SOL crypto February 02 2025 02:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "6.0x"
+  },
+  {
+    "event_id": 131,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-03 01:00:00+00:00",
+    "actual_impulse_time": "2025-02-03 01:00:05 UTC",
+    "search_window_start": "2025-02-03 00:58:05 UTC",
+    "search_window_end": "2025-02-03 01:00:05 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-03_00:58:05_UTC until:2025-02-03_01:00:05_UTC",
+    "google_query": "Solana SOL crypto February 03 2025 00:58 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "11.2x"
+  },
+  {
+    "event_id": 132,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-03 04:00:00+00:00",
+    "actual_impulse_time": "2025-02-03 03:58:52 UTC",
+    "search_window_start": "2025-02-03 03:56:52 UTC",
+    "search_window_end": "2025-02-03 03:58:52 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-03_03:56:52_UTC until:2025-02-03_03:58:52_UTC",
+    "google_query": "Solana SOL crypto February 03 2025 03:56 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "6.6x"
+  },
+  {
+    "event_id": 133,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-03 10:00:00+00:00",
+    "actual_impulse_time": "2025-02-03 09:58:22 UTC",
+    "search_window_start": "2025-02-03 09:56:22 UTC",
+    "search_window_end": "2025-02-03 09:58:22 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-03_09:56:22_UTC until:2025-02-03_09:58:22_UTC",
+    "google_query": "Solana SOL crypto February 03 2025 09:56 UTC",
+    "price_move": "0.12%",
+    "volume_spike": "8.0x"
+  },
+  {
+    "event_id": 134,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-03 15:00:00+00:00",
+    "actual_impulse_time": "2025-02-03 14:58:26 UTC",
+    "search_window_start": "2025-02-03 14:56:26 UTC",
+    "search_window_end": "2025-02-03 14:58:26 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-03_14:56:26_UTC until:2025-02-03_14:58:26_UTC",
+    "google_query": "Solana SOL crypto February 03 2025 14:56 UTC",
+    "price_move": "0.07%",
+    "volume_spike": "6.6x"
+  },
+  {
+    "event_id": 135,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-04 05:00:00+00:00",
+    "actual_impulse_time": "2025-02-04 04:59:23 UTC",
+    "search_window_start": "2025-02-04 04:57:23 UTC",
+    "search_window_end": "2025-02-04 04:59:23 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-04_04:57:23_UTC until:2025-02-04_04:59:23_UTC",
+    "google_query": "Solana SOL crypto February 04 2025 04:57 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "9.2x"
+  },
+  {
+    "event_id": 136,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-18 06:00:00+00:00",
+    "actual_impulse_time": "2025-02-18 05:58:07 UTC",
+    "search_window_start": "2025-02-18 05:56:07 UTC",
+    "search_window_end": "2025-02-18 05:58:07 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-18_05:56:07_UTC until:2025-02-18_05:58:07_UTC",
+    "google_query": "Solana SOL crypto February 18 2025 05:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "6.4x"
+  },
+  {
+    "event_id": 137,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-18 09:00:00+00:00",
+    "actual_impulse_time": "2025-02-18 08:58:07 UTC",
+    "search_window_start": "2025-02-18 08:56:07 UTC",
+    "search_window_end": "2025-02-18 08:58:07 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-18_08:56:07_UTC until:2025-02-18_08:58:07_UTC",
+    "google_query": "Solana SOL crypto February 18 2025 08:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "5.2x"
+  },
+  {
+    "event_id": 138,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-24 22:00:00+00:00",
+    "actual_impulse_time": "2025-02-24 21:58:10 UTC",
+    "search_window_start": "2025-02-24 21:56:10 UTC",
+    "search_window_end": "2025-02-24 21:58:10 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-24_21:56:10_UTC until:2025-02-24_21:58:10_UTC",
+    "google_query": "Solana SOL crypto February 24 2025 21:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "9.7x"
+  },
+  {
+    "event_id": 139,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-25 11:00:00+00:00",
+    "actual_impulse_time": "2025-02-25 10:58:23 UTC",
+    "search_window_start": "2025-02-25 10:56:23 UTC",
+    "search_window_end": "2025-02-25 10:58:23 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-25_10:56:23_UTC until:2025-02-25_10:58:23_UTC",
+    "google_query": "Solana SOL crypto February 25 2025 10:56 UTC",
+    "price_move": "0.04%",
+    "volume_spike": "9.1x"
+  },
+  {
+    "event_id": 140,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-25 19:00:00+00:00",
+    "actual_impulse_time": "2025-02-25 18:59:11 UTC",
+    "search_window_start": "2025-02-25 18:57:11 UTC",
+    "search_window_end": "2025-02-25 18:59:11 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-25_18:57:11_UTC until:2025-02-25_18:59:11_UTC",
+    "google_query": "Solana SOL crypto February 25 2025 18:57 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "5.7x"
+  },
+  {
+    "event_id": 141,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-28 01:00:00+00:00",
+    "actual_impulse_time": "2025-02-28 00:58:13 UTC",
+    "search_window_start": "2025-02-28 00:56:13 UTC",
+    "search_window_end": "2025-02-28 00:58:13 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-28_00:56:13_UTC until:2025-02-28_00:58:13_UTC",
+    "google_query": "Solana SOL crypto February 28 2025 00:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "13.1x"
+  },
+  {
+    "event_id": 142,
+    "title": "Post-Crash Recovery",
+    "current_db_timestamp": "2025-02-28 14:00:00+00:00",
+    "actual_impulse_time": "2025-02-28 13:58:28 UTC",
+    "search_window_start": "2025-02-28 13:56:28 UTC",
+    "search_window_end": "2025-02-28 13:58:28 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-02-28_13:56:28_UTC until:2025-02-28_13:58:28_UTC",
+    "google_query": "Solana SOL crypto February 28 2025 13:56 UTC",
+    "price_move": "0.02%",
+    "volume_spike": "13.6x"
+  },
+  {
+    "event_id": 143,
+    "title": "President Trump Announces U.S. Crypto Reserve",
+    "current_db_timestamp": "2025-03-02 12:24:00+00:00",
+    "actual_impulse_time": "2025-03-02 14:58:10 UTC",
+    "search_window_start": "2025-03-02 14:56:10 UTC",
+    "search_window_end": "2025-03-02 14:58:10 UTC",
+    "keywords": [
+      "Trump",
+      "crypto",
+      "reserve",
+      "bitcoin",
+      "executive order"
+    ],
+    "twitter_query": "(Trump OR crypto OR reserve OR bitcoin OR executive order) since:2025-03-02_14:56:10_UTC until:2025-03-02_14:58:10_UTC",
+    "google_query": "Trump crypto reserve March 02 2025 14:56 UTC",
+    "price_move": "0.01%",
+    "volume_spike": "8.5x"
+  },
+  {
+    "event_id": 161,
+    "title": "SEC Closes Investigation into Ethereum 2.0",
+    "current_db_timestamp": "2025-04-09 11:00:00+00:00",
+    "actual_impulse_time": "2025-04-09 10:58:29 UTC",
+    "search_window_start": "2025-04-09 10:56:29 UTC",
+    "search_window_end": "2025-04-09 10:58:29 UTC",
+    "keywords": [
+      "Ethereum",
+      "ETH",
+      "SEC",
+      "investigation"
+    ],
+    "twitter_query": "(Ethereum OR ETH OR SEC OR investigation) since:2025-04-09_10:56:29_UTC until:2025-04-09_10:58:29_UTC",
+    "google_query": "Ethereum ETH SEC April 09 2025 10:56 UTC",
+    "price_move": "0.06%",
+    "volume_spike": "5.5x"
+  },
+  {
+    "event_id": 162,
+    "title": "SEC Closes Investigation into Ethereum 2.0",
+    "current_db_timestamp": "2025-04-09 17:00:00+00:00",
+    "actual_impulse_time": "2025-04-09 16:58:17 UTC",
+    "search_window_start": "2025-04-09 16:56:17 UTC",
+    "search_window_end": "2025-04-09 16:58:17 UTC",
+    "keywords": [
+      "Ethereum",
+      "ETH",
+      "SEC",
+      "investigation"
+    ],
+    "twitter_query": "(Ethereum OR ETH OR SEC OR investigation) since:2025-04-09_16:56:17_UTC until:2025-04-09_16:58:17_UTC",
+    "google_query": "Ethereum ETH SEC April 09 2025 16:56 UTC",
+    "price_move": "0.05%",
+    "volume_spike": "6.3x"
+  },
+  {
+    "event_id": 180,
+    "title": "Uptober Rally Statistics",
+    "current_db_timestamp": "2025-10-01 08:00:00+00:00",
+    "actual_impulse_time": "2025-10-01 07:58:05 UTC",
+    "search_window_start": "2025-10-01 07:56:05 UTC",
+    "search_window_end": "2025-10-01 07:58:05 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-10-01_07:56:05_UTC until:2025-10-01_07:58:05_UTC",
+    "google_query": "Solana SOL crypto October 01 2025 07:56 UTC",
+    "price_move": "0.00%",
+    "volume_spike": "5.4x"
+  },
+  {
+    "event_id": 181,
+    "title": "Uptober Rally Statistics",
+    "current_db_timestamp": "2025-10-10 15:00:00+00:00",
+    "actual_impulse_time": "2025-10-10 15:00:41 UTC",
+    "search_window_start": "2025-10-10 14:58:41 UTC",
+    "search_window_end": "2025-10-10 15:00:41 UTC",
+    "keywords": [
+      "Solana",
+      "SOL",
+      "crypto",
+      "breaking"
+    ],
+    "twitter_query": "(Solana OR SOL OR crypto OR breaking) since:2025-10-10_14:58:41_UTC until:2025-10-10_15:00:41_UTC",
+    "google_query": "Solana SOL crypto October 10 2025 14:58 UTC",
+    "price_move": "0.03%",
+    "volume_spike": "10.0x"
+  }
+]

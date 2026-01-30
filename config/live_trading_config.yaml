@@ -31,6 +31,8 @@ ingestion:
 brain:
   # Sentiment Model (FinBERT is optimized for financial text)
   model_name: "ProsusAI/finbert"
+  finbert_model: "ProsusAI/finbert"
+  deberta_model: "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"
   device: "auto" # auto, cpu, cuda, mps (Mac)
   
   # Model Selection: "finbert" or "groq"
