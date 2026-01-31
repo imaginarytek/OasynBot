@@ -1,0 +1,22 @@
+[
+    {
+        "title": "SpaceX Sells Bitcoin Holdings (Report)",
+        "timestamp": "2023-08-17T21:30:00+00:00",
+        "source": "Wall Street Journal",
+        "source_url": "https://www.wsj.com/finance/investing/elon-musk-spacex-bitcoin-holdings-300m-write-down",
+        "category": "Market Structure",
+        "verbatim_text": "SpaceX wrote down the value of bitcoin it owns by a total of $373 million last year and in 2021 and has sold the cryptocurrency. Tesla has taken a similar approach with its bitcoin holdings. \n\nThe report triggered a massive liquidation cascade across the crypto market.",
+        "time_to_impact_seconds": 300,
+        "notes": "Caused 10% flash crash. Z-Score 9.3 (Spike at Aug 18 07:00 is likely the Asian follow-through or the main event depending on timezone)"
+    },
+    {
+        "title": "BlackRock iShares Bitcoin Trust Listed on DTCC",
+        "timestamp": "2023-10-23T22:00:00+00:00",
+        "source": "DTCC Website / Twitter Watchers",
+        "source_url": "https://twitter.com/EricBalchunas/status/171652...",
+        "category": "Institutional",
+        "verbatim_text": "The iShares Bitcoin Trust has been listed on the DTCC (Depository Trust & Clearing Corporation) with ticker IBTC. \n\nThis is a critical step in the ETF approval process, signaling imminent launch readiness.",
+        "time_to_impact_seconds": 60,
+        "notes": "Ignited the 'Uptober' rally. Z-Score 9.4"
+    }
+]

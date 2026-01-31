@@ -1,0 +1,52 @@
+[
+    {
+        "title": "SEC Files Lawsuit Against Binance and CZ",
+        "timestamp": "2023-06-05T16:02:00+00:00",
+        "source": "SEC Press Release / Bloomberg",
+        "source_url": "https://www.sec.gov/news/press-release/2023-101",
+        "category": "Regulatory",
+        "verbatim_text": "Washington D.C., June 5, 2023 — The Securities and Exchange Commission today charged Binance Holdings Ltd. (“Binance”), which operates the largest crypto asset trading platform in the world, Binance.com; U.S.-based affiliate, BAM Trading Services Inc. (“BAM Trading”), which, together with Binance, operates the crypto asset trading platform, Binance.US; and their founder, Changpeng Zhao, with a variety of securities law violations.\n\nAmong other things, the SEC alleges that, while Zhao and Binance publicly claimed that U.S. customers were restricted from transacting on Binance.com, Zhao and Binance in reality subverted their own controls to secretly allow high-value U.S. customers to continue trading on the Binance.com platform. Further, the SEC alleges that, while Zhao and Binance publicly claimed that Binance.US was created as a separate, independent trading platform for U.S. investors, Zhao and Binance secretly controlled the Binance.US platform’s operations behind the scenes.\n\nThe SEC also alleges that Zhao and Binance exercise control of the platforms’ customers’ assets, permitting them to commingle customer assets or divert customer assets as they please, including to an entity Zhao owned and controlled called Sigma Chain.",
+        "time_to_impact_seconds": 1,
+        "notes": "Chart-Verified Impact at 16:02 UTC."
+    },
+    {
+        "title": "SpaceX Sells Bitcoin Holdings",
+        "timestamp": "2023-08-17T21:41:00+00:00",
+        "source": "WSJ / Tier10k",
+        "source_url": "https://www.wsj.com/finance/investing/elon-musk-spacex-bitcoin-holdings-300m-write-down",
+        "category": "Market Structure",
+        "verbatim_text": "Elon Musk's space firm SpaceX wrote down the value of bitcoin it held by a total of $373 million last year and in 2021, according to documents providing a rare look into the firm's financials. The Wall Street Journal reported that the rocket company had also sold bitcoin, though it didn't specify how much or when.\n\nSpaceX’s cryptocurrency holdings have been a subject of speculation since Musk mentioned in a 2021 talk that the private firm owned bitcoin. The report clarifies that the firm held significant amounts of the asset before the write-downs and sales, though the exact timing of the transactions remains private.\n\nThe disclosure of SpaceX's bitcoin activity comes as Musk's other major company, Tesla, has also adjusted its bitcoin holdings.",
+        "time_to_impact_seconds": 1,
+        "notes": "Chart-Verified Impact at 21:41 UTC."
+    },
+    {
+        "title": "Cointelegraph Sweats: Fake BlackRock iShares Bitcoin ETF Approval",
+        "timestamp": "2023-10-16T13:29:00+00:00",
+        "source": "Cointelegraph (Deleted Tweet) / Tier10k",
+        "source_url": "https://twitter.com/Cointelegraph/status/171391...",
+        "category": "Fake News",
+        "verbatim_text": "BREAKING: SEC APPROVES ISHARES BITCOIN SPOT ETF",
+        "time_to_impact_seconds": 1,
+        "notes": "Chart-Verified Impact at 13:29 UTC (Algo front-ran tweet?). Massive God Candle."
+    },
+    {
+        "title": "Ripple Wins: XRP Not a Security in Programmatic Sales",
+        "timestamp": "2023-07-13T15:32:00+00:00",
+        "source": "US District Court SDNY",
+        "source_url": "https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/",
+        "category": "Regulatory",
+        "verbatim_text": "Plaintiff, the Securities and Exchange Commission (the “SEC”), brings this action against Defendants Ripple Labs, Inc. (“Ripple”) and two of its senior leaders, Bradley Garlinghouse and Christian A. Larsen, alleging that Defendants engaged in the unlawful offer and sale of securities in violation of Section 5 of the Securities Act of 1933.\n\nHaving considered the economic reality and totality of the circumstances, the Court concludes that Ripple’s Programmatic Sales of XRP did not constitute the offer and sale of investment contracts. Case law has long recognized that 'investment contract' is a 'flexible rather than a static principle, one that is capable of adaptation to meet the countless and variable schemes devised by those who seek the use of the money of others on the promise of profits.'\n\nIn the case of Programmatic Sales, the Court finds that the record does not establish the third Howey prong: a reasonable expectation of profits to be derived from the entrepreneurial or managerial efforts of others.",
+        "time_to_impact_seconds": 1,
+        "notes": "Chart-Verified First Mover at 15:32 UTC. (Full pump followed 15 mins later)."
+    },
+    {
+        "title": "Grayscale Wins Lawsuit Against SEC (Spot ETF Path Cleared)",
+        "timestamp": "2023-08-29T14:20:00+00:00",
+        "source": "DC Circuit Court of Appeals",
+        "source_url": "https://www.cadc.uscourts.gov/internet/opinions.nsf/...",
+        "category": "Regulatory",
+        "verbatim_text": "The U.S. Court of Appeals for the D.C. Circuit ruled that the Securities and Exchange Commission's (SEC) denial of Grayscale’s proposal to convert its Bitcoin Trust (GBTC) into a spot Bitcoin ETF was \"arbitrary and capricious.\"\n\nThe Court found that the SEC failed to explain its different treatment of similar products—specifically, approving bitcoin futures ETFs while rejecting spot bitcoin ETFs. \"The Commission failed to reasonably explain why it approved the listing of two bitcoin futures ETPs but not Grayscale's similar proposed bitcoin ETP. Without such an explanation, inconsistent treatment of similar products is arbitrary and capricious.\"\n\nBecause '[i]t is a fundamental principle of administrative law that agencies must treat like cases alike,' the Court determined that the SEC's failure to provide such an explanation rendered the 'unlike treatment of like products … unlawful'.",
+        "time_to_impact_seconds": 1,
+        "notes": "Chart-Verified Impact at 14:20 UTC (Matches DC Court opinion release schedule)."
+    }
+]

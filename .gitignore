@@ -18,3 +18,4 @@ data/models/
 data/*.db
 data/trading_data.db
 data/hedgemony.db
+data/hedgemony.db.backup*

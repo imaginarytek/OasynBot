@@ -9,8 +9,13 @@ import os
 # Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from src.utils.db import Database
-from src.backtest.engine import BacktestEngine
-from src.backtest.strategy import MomentumStrategy, SentimentStrategy
+from src.backtest import (
+    EventDataAccess,
+    VerbatimSentimentStrategy,
+    SimpleEventStrategy,
+    HardcoreEngine,
+    calculate_metrics
+)
 from src.backtest.metrics import format_metrics
 from src.portfolio.tracker import PortfolioTracker
 from src.utils.settings import SettingsManager
@@ -91,49 +96,117 @@ with tab1:
 
 # ============== TAB 2: BACKTESTING ==============
 with tab2:
-    st.subheader("Strategy Backtester")
-    
-    col1, col2, col3, col4 = st.columns(4)
-    
+    st.subheader("Event-Driven Strategy Backtester")
+
+    col1, col2 = st.columns(2)
+
     with col1:
-        symbol = st.selectbox("Symbol", ["BTC-USD", "ETH-USD"])
+        strategy_name = st.selectbox("Strategy", [
+            "verbatim_sentiment",
+            "buy_all_events",
+            "sell_all_events"
+        ])
     with col2:
-        strategy_name = st.selectbox("Strategy", ["momentum", "sentiment"])
-    with col3:
-        start_date = st.date_input("Start Date", datetime(2024, 1, 1))
-    with col4:
-        end_date = st.date_input("End Date", datetime(2024, 12, 31))
-    
-    col5, col6 = st.columns(2)
-    with col5:
         initial_balance = st.number_input("Initial Balance ($)", value=100000, step=10000)
-    with col6:
-        position_size = st.slider("Position Size (%)", 1, 20, 5) / 100
-    
-    if st.button("🚀 Run Backtest", type="primary"):
-        with st.spinner("Running backtest..."):
+
+    # Strategy-specific parameters
+    if strategy_name == "verbatim_sentiment":
+        col3, col4 = st.columns(2)
+        with col3:
+            confidence_threshold = st.slider("Confidence Threshold", 0.5, 1.0, 0.7, 0.05)
+        with col4:
+            position_size = st.slider("Position Size (%)", 1, 20, 10) / 100
+    else:
+        confidence_threshold = 0.8
+        position_size = 0.1
+
+    # Event count info
+    data_access = EventDataAccess()
+    event_count = data_access.count_events()
+    st.info(f"📊 Database contains {event_count} validated events for backtesting")
+
+    if st.button("🚀 Run Event-Driven Backtest", type="primary"):
+        with st.spinner("Running event-driven backtest..."):
             # Create strategy
-            if strategy_name == "momentum":
-                strategy = MomentumStrategy()
+            if strategy_name == "verbatim_sentiment":
+                strategy = VerbatimSentimentStrategy({
+                    'confidence_threshold': confidence_threshold,
+                    'position_size_pct': position_size
+                })
+            elif strategy_name == "buy_all_events":
+                strategy = SimpleEventStrategy({
+                    'default_side': 'buy',
+                    'confidence': 0.8,
+                    'position_size_pct': position_size
+                })
+            else:  # sell_all_events
+                strategy = SimpleEventStrategy({
+                    'default_side': 'sell',
+                    'confidence': 0.8,
+                    'position_size_pct': position_size
+                })
+
+            # Load events
+            events = data_access.load_all_events()
+
+            if not events:
+                st.error("No events found in database!")
             else:
-                strategy = SentimentStrategy()
-            
-            # Run backtest
-            engine = BacktestEngine(
-                strategy=strategy,
-                db=db,
-                initial_balance=initial_balance,
-                position_size_pct=position_size
-            )
-            
-            result = engine.run(
-                symbol=symbol,
-                start_date=datetime.combine(start_date, datetime.min.time()),
-                end_date=datetime.combine(end_date, datetime.min.time())
-            )
-            
-            # Store in session state
-            st.session_state['backtest_result'] = result
+                # Run event-driven backtest
+                balance = initial_balance
+                trades = []
+
+                for event in events:
+                    past_prices = data_access.get_past_prices(event, lookback_seconds=300)
+
+                    if past_prices.empty:
+                        continue
+
+                    signal = strategy.analyze_event(event, past_prices, symbol='SOL-USD')
+
+                    if signal:
+                        entry_price = data_access.get_execution_price(event, delay_seconds=0)
+                        exit_price = data_access.get_execution_price(event, delay_seconds=300)
+
+                        if entry_price and exit_price:
+                            # Calculate PnL
+                            if signal.side == 'buy':
+                                pnl_pct = (exit_price - entry_price) / entry_price
+                            else:
+                                pnl_pct = (entry_price - exit_price) / entry_price
+
+                            position_value = balance * position_size * signal.confidence
+                            pnl_dollars = position_value * pnl_pct
+                            balance += pnl_dollars
+
+                            trades.append({
+                                'timestamp': event.timestamp,
+                                'title': event.title,
+                                'side': signal.side,
+                                'entry_price': entry_price,
+                                'exit_price': exit_price,
+                                'pnl': pnl_dollars,
+                                'pnl_pct': pnl_pct * 100,
+                                'confidence': signal.confidence,
+                                'reason': signal.reason
+                            })
+
+                # Calculate metrics
+                metrics = calculate_metrics(trades, initial_balance=initial_balance)
+
+                # Create result object
+                class BacktestResult:
+                    def __init__(self):
+                        self.initial_balance = initial_balance
+                        self.final_balance = balance
+                        self.trades = trades
+                        self.metrics = metrics
+                        self.strategy_name = strategy_name
+                        self.start_date = events[0].timestamp if events else None
+                        self.end_date = events[-1].timestamp if events else None
+
+                result = BacktestResult()
+                st.session_state['backtest_result'] = result
     
     # Display results if available
     if 'backtest_result' in st.session_state:
@@ -162,8 +235,10 @@ with tab2:
             equity = [result.initial_balance]
             dates = [result.start_date]
             for trade in result.trades:
-                equity.append(equity[-1] + trade.pnl)
-                dates.append(trade.timestamp)
+                pnl = trade.get('pnl', 0) if isinstance(trade, dict) else trade.pnl
+                timestamp = trade.get('timestamp') if isinstance(trade, dict) else trade.timestamp
+                equity.append(equity[-1] + pnl)
+                dates.append(timestamp)
             
             df_equity = pd.DataFrame({'Date': dates, 'Balance': equity})
             fig = px.line(df_equity, x='Date', y='Balance', title="Portfolio Value Over Time")
@@ -173,12 +248,13 @@ with tab2:
             # Trade log
             st.subheader("📋 Trade Log")
             trade_data = [{
-                'Date': t.timestamp.strftime('%Y-%m-%d'),
-                'Side': t.side.upper(),
-                'Entry': f"${t.entry_price:,.0f}",
-                'Exit': f"${t.exit_price:,.0f}",
-                'PnL': f"${t.pnl:+,.2f}",
-                'Reason': t.reason
+                'Date': t['timestamp'].strftime('%Y-%m-%d %H:%M') if isinstance(t.get('timestamp'), datetime) else t.get('timestamp', 'N/A'),
+                'Event': t.get('title', 'N/A')[:50] if 'title' in t else 'N/A',
+                'Side': t.get('side', 'N/A').upper() if 'side' in t else t.side.upper() if hasattr(t, 'side') else 'N/A',
+                'Entry': f"${t.get('entry_price', 0):,.2f}" if 'entry_price' in t else f"${t.entry_price:,.2f}",
+                'Exit': f"${t.get('exit_price', 0):,.2f}" if 'exit_price' in t else f"${t.exit_price:,.2f}",
+                'PnL': f"${t.get('pnl', 0):+,.2f}" if 'pnl' in t else f"${t.pnl:+,.2f}",
+                'Reason': t.get('reason', 'N/A')[:30] if 'reason' in t else (t.reason[:30] if hasattr(t, 'reason') else 'N/A')
             } for t in result.trades]
             st.dataframe(pd.DataFrame(trade_data), use_container_width=True, hide_index=True)
 

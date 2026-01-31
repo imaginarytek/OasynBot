@@ -6,6 +6,7 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import Optional
 from datetime import datetime
+import pandas as pd
 
 
 @dataclass
@@ -177,3 +178,200 @@ class MomentumStrategy(Strategy):
         """Reset for new backtest."""
         self.price_history = []
         self.last_signal = None
+
+
+# ============================================================================
+# NEW: Event-Driven Strategies (Use with master_events & data_access.py)
+# ============================================================================
+
+
+class EventStrategy(ABC):
+    """
+    Base class for event-driven strategies.
+
+    These strategies analyze VERBATIM event text (what traders actually saw)
+    instead of pre-calculated sentiment scores.
+
+    CRITICAL: Never use validation metrics (move_5s, tradeable, etc.)
+    Only use: event.title, event.description, event.source, past_prices
+    """
+
+    def __init__(self, config: dict = None):
+        self.config = config or {}
+        self.name = self.__class__.__name__
+
+    @abstractmethod
+    def analyze_event(
+        self,
+        event,  # Event object from data_access.py
+        past_prices: pd.DataFrame,
+        symbol: str = 'SOL-USD'
+    ) -> Optional[Signal]:
+        """
+        Analyze event and return trading signal.
+
+        Args:
+            event: Event object with ONLY input fields (title, description, etc.)
+            past_prices: Price data BEFORE event timestamp
+            symbol: Trading symbol
+
+        Returns:
+            Signal if a trade should be made, None otherwise
+        """
+        pass
+
+    def reset(self):
+        """Reset strategy state for a new backtest run."""
+        pass
+
+
+class VerbatimSentimentStrategy(EventStrategy):
+    """
+    Analyzes verbatim event text to determine sentiment.
+
+    Uses keyword matching to analyze the EXACT words traders saw
+    instead of pre-calculated sentiment scores.
+
+    Positive keywords: approve, approved, victory, win, success, boost, surge
+    Negative keywords: reject, rejected, fraud, scam, hack, crash, ban, lawsuit
+    """
+
+    def __init__(self, config: dict = None):
+        super().__init__(config)
+        self.confidence_threshold = self.config.get('confidence_threshold', 0.7)
+        self.position_size_pct = self.config.get('position_size_pct', 0.1)
+
+        # Keyword lists for sentiment analysis
+        self.positive_keywords = [
+            'approve', 'approved', 'victory', 'win', 'success', 'boost',
+            'surge', 'partnership', 'acquisition', 'launch', 'integration',
+            'milestone', 'achievement', 'record', 'positive'
+        ]
+
+        self.negative_keywords = [
+            'reject', 'rejected', 'fraud', 'scam', 'hack', 'crash', 'ban',
+            'lawsuit', 'investigation', 'charge', 'charged', 'fine', 'penalty',
+            'violation', 'illegal', 'shutdown', 'suspend', 'suspended'
+        ]
+
+        # Source credibility weights
+        self.source_weights = {
+            'Bloomberg': 1.0,
+            'Reuters': 1.0,
+            'WSJ': 0.9,
+            'CNBC': 0.9,
+            'CoinDesk': 0.8,
+            'Twitter': 0.7,  # Depends on account
+            'sec.gov': 0.95,
+            'default': 0.5
+        }
+
+    def analyze_event(
+        self,
+        event,
+        past_prices: pd.DataFrame,
+        symbol: str = 'SOL-USD'
+    ) -> Optional[Signal]:
+        """
+        Analyze verbatim event text and return trading signal.
+
+        Steps:
+        1. Analyze title + description for sentiment keywords
+        2. Check source credibility
+        3. Compute confidence
+        4. Return signal if confidence > threshold
+        """
+        # Combine title and description for analysis
+        text = f"{event.title} {event.description}".lower()
+
+        # Count positive and negative keywords
+        positive_count = sum(1 for kw in self.positive_keywords if kw in text)
+        negative_count = sum(1 for kw in self.negative_keywords if kw in text)
+
+        # No clear sentiment = no trade
+        if positive_count == 0 and negative_count == 0:
+            return None
+
+        # Determine sentiment direction and strength
+        if positive_count > negative_count:
+            sentiment_score = positive_count - negative_count
+            side = 'buy'
+            matched_keywords = [kw for kw in self.positive_keywords if kw in text]
+        elif negative_count > positive_count:
+            sentiment_score = negative_count - positive_count
+            side = 'sell'
+            matched_keywords = [kw for kw in self.negative_keywords if kw in text]
+        else:
+            # Equal positive/negative = unclear, no trade
+            return None
+
+        # Normalize sentiment score (cap at 1.0)
+        sentiment_strength = min(sentiment_score / 3.0, 1.0)
+
+        # Get source credibility weight
+        source_weight = self.source_weights.get(
+            event.source,
+            self.source_weights['default']
+        )
+
+        # Compute final confidence
+        confidence = sentiment_strength * source_weight
+
+        # Check confidence threshold
+        if confidence < self.confidence_threshold:
+            return None
+
+        return Signal(
+            timestamp=event.timestamp,
+            symbol=symbol,
+            side=side,
+            confidence=confidence,
+            reason=f"Keywords: {', '.join(matched_keywords[:3])} | Source: {event.source}",
+            size_pct=self.position_size_pct
+        )
+
+    def reset(self):
+        """Reset for new backtest."""
+        pass  # This strategy is stateless
+
+
+class SimpleEventStrategy(EventStrategy):
+    """
+    Simple strategy that trades ALL events in same direction.
+
+    Useful for baseline testing:
+    - "Buy every event" baseline
+    - "Sell every event" baseline
+    - Compare more sophisticated strategies against this
+
+    Config:
+        default_side: 'buy' or 'sell' (default: 'buy')
+        confidence: Fixed confidence value (default: 0.8)
+        position_size_pct: Position size as % of portfolio (default: 0.1)
+    """
+
+    def __init__(self, config: dict = None):
+        super().__init__(config)
+        self.default_side = self.config.get('default_side', 'buy')
+        self.confidence = self.config.get('confidence', 0.8)
+        self.position_size_pct = self.config.get('position_size_pct', 0.1)
+
+    def analyze_event(
+        self,
+        event,
+        past_prices: pd.DataFrame,
+        symbol: str = 'SOL-USD'
+    ) -> Optional[Signal]:
+        """Trade every event in configured direction."""
+        return Signal(
+            timestamp=event.timestamp,
+            symbol=symbol,
+            side=self.default_side,
+            confidence=self.confidence,
+            reason=f"Simple strategy: always {self.default_side}",
+            size_pct=self.position_size_pct
+        )
+
+    def reset(self):
+        """Reset for new backtest."""
+        pass  # Stateless

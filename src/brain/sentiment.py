@@ -19,28 +19,33 @@ class SentimentEngine:
         self.logger = logging.getLogger("hedgemony.brain.sentiment")
         self.config = config or {}
         self.impact_scorer = ImpactScorer(self.config)
-        
-        # Determine Model Type
-        # Options: "finbert" (default), "groq"
-        self.model_type = self.config.get("model_type", "finbert")
-        if self.config.get("brain", {}).get("model_type"): # Handle nested config if present
-             self.model_type = self.config.get("brain", {}).get("model_type")
 
-        # Initialize Groq if enabled
-        if self.model_type == "groq":
-            try:
-                from .llm_sentiment import GroqAnalyzer
-                self.groq_analyzer = GroqAnalyzer(self.config)
-                self.logger.info("🟢 AGENT 1: Groq (Reasoning) Initialized")
-            except Exception as e:
-                self.logger.error(f"Failed to init Groq: {e}")
-                self.model_type = "finbert"
+        # ALWAYS initialize all three brains for the Council of Three
+        self.logger.info("🚀 Initializing Council of Three AI Brains...")
 
-        # Initialize FinBERT (Agent 2 - The Banker)
+        # Initialize AGENT 1: Groq (LLM Reasoning)
+        try:
+            from .llm_sentiment import GroqAnalyzer
+            self.groq_analyzer = GroqAnalyzer(self.config)
+            self.logger.info("🟢 AGENT 1: Groq (Reasoning) Initialized")
+        except Exception as e:
+            self.logger.warning(f"⚠️  AGENT 1: Groq failed to init: {e}")
+            self.logger.warning("   Council will run with 2/3 brains (FinBERT + DeBERTa)")
+            self.groq_analyzer = None
+
+        # Initialize AGENT 2: FinBERT (The Banker)
         self._init_finbert()
-        
-        # Initialize DeBERTa (Agent 3 - The Logician)
+
+        # Initialize AGENT 3: DeBERTa (The Logician)
         self._init_deberta()
+
+        # Count active brains
+        active_brains = sum([
+            self.groq_analyzer is not None,
+            hasattr(self, 'finbert_pipe') and self.finbert_pipe is not None,
+            hasattr(self, 'deberta_pipe') and self.deberta_pipe is not None
+        ])
+        self.logger.info(f"✅ Council initialized with {active_brains}/3 brains active")
             
         self._initialized = True
 

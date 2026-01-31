@@ -1,0 +1,221 @@
+# HedgemonyBot System Architecture
+
+## Overview
+
+HedgemonyBot is an AI-powered algorithmic trading system that ingests real-time news, performs sentiment analysis, and executes high-leverage trades on crypto futures markets. The system operates in both paper trading (backtesting) and live trading modes.
+
+## High-Level Architecture
+
+```mermaid
+graph TD
+    A[News Sources] -->|RSS/API| B[Ingestion Layer]
+    B --> C[Brain Layer]
+    C -->|Sentiment Analysis| D[Trading Engine]
+    D --> E[Exchange Connectors]
+    E --> F[Binance/Hyperliquid]
+    
+    G[Price Data] -->|1s/1m OHLC| H[Chronos]
+    H --> I[Database]
+    C --> I
+    D --> I
+    
+    J[Dashboard] -->|Monitor| I
+```
+
+## Core Components
+
+### 1. Ingestion Layer (`src/ingestion/`)
+
+**Purpose:** Fetch and normalize news from multiple sources.
+
+**Key Modules:**
+- `rss_fetcher.py` - Polls RSS feeds (CoinDesk, CoinTelegraph, etc.)
+- `twitter_monitor.py` - Monitors Twitter/X for breaking news
+- `stream_manager.py` - Coordinates multiple ingestion workers
+- `worker.py` - Async worker for parallel fetching
+
+**Data Flow:**
+1. Fetch raw news from sources
+2. Normalize to common format (title, published_at, source_id)
+3. Store in `news` table
+4. Emit event to Brain layer
+
+### 2. Brain Layer (`src/brain/`)
+
+**Purpose:** Analyze news sentiment and generate trading signals.
+
+**Key Modules:**
+- `llm_sentiment.py` - Uses Groq/OpenAI for sentiment analysis
+- `sentiment.py` - Ensemble sentiment scoring (LLM + FinBERT)
+- `impact.py` - Scores news impact (1-10 scale)
+- `memory.py` - RAG system for context-aware analysis
+
+**Analysis Pipeline:**
+1. Receive news event
+2. Run sentiment analysis (positive/negative/neutral)
+3. Calculate confidence score (0-1)
+4. Assign impact score (7-10 for high-impact events)
+5. Generate trading signal if confidence > 0.75
+
+**Output Format:**
+```python
+{
+    "analysis": {
+        "label": "positive",  # or "negative", "neutral"
+        "score": 0.85,        # -1 to +1
+        "confidence": 0.92    # 0 to 1
+    },
+    "source_item": {...},     # Original news item
+    "symbol": "SOL/USD"
+}
+```
+
+### 3. Trading Layer (`src/trading/`)
+
+**Purpose:** Execute trades and manage positions.
+
+**Key Modules:**
+- `live_executor.py` - Live trading execution engine (V2.9.2 "Hunter")
+- `exchange.py` - Abstract exchange interface
+- `binance.py` - Binance connector
+- `hyperliquid.py` - Hyperliquid connector
+- `executor.py` - Trade execution logic
+
+**Trading Workflow (V2.9.2):**
+1. **Signal Confirmation (300s window)**
+   - Wait for price to move ≥0.20% in predicted direction
+   - If no confirmation, discard signal
+2. **Entry Execution**
+   - Calculate position size (10% balance × 3x leverage)
+   - Place market order
+   - Log trade to database
+3. **Trailing Stop Management ("Chaos Bracket")**
+   - Initial stop: 3.5% below entry
+   - Breakeven: Move to entry +0.2% when PnL > 1.5%
+   - Lock: Trail by 1% when PnL > 3%
+   - Moonbag: Trail by 0.5% when PnL > 6%
+
+### 4. Backtest Layer (`src/backtest/`)
+
+**Purpose:** Validate strategies on historical data.
+
+**Key Modules:**
+- `test_strategy.py` - Monte Carlo backtester with realistic slippage
+- Event-driven simulation (not vectorized)
+
+**Features:**
+- Synthetic tick generation from 1m OHLC (Brownian Bridge)
+- Dynamic slippage based on volatility
+- Fixed risk sizing (1-2% per trade based on impact)
+- Monte Carlo sensitivity analysis (30-50 runs per event)
+
+**Risk Model:**
+```python
+RISK_CONFIG = {
+    'base_risk_pct': 0.01,    # 1% for impact 7-8
+    'power_risk_pct': 0.015,  # 1.5% for impact 9
+    'god_risk_pct': 0.02,     # 2% for impact 10
+    'drawdown_limit': 0.05,   # Cut risk by 50% if DD > 5%
+}
+```
+
+### 5. Data Layer (`src/chronos/`, `src/utils/`)
+
+**Purpose:** Manage price data and database operations.
+
+**Key Modules:**
+- `chronos/` - Price data fetching (Binance, Hyperliquid)
+- `utils/db.py` - Database abstraction layer
+- `utils/settings.py` - Configuration management
+
+**Data Storage:**
+- SQLite database (`data/hedgemony.db`)
+- Tables: `news`, `trades`, `price_history`, `portfolio_snapshots`, `curated_events`
+
+### 6. Dashboard (`src/dashboard/`)
+
+**Purpose:** Monitor system performance and trades.
+
+**Key Modules:**
+- `app.py` - Flask/Streamlit dashboard (TBD)
+
+## Data Flow Diagram
+
+```mermaid
+sequenceDiagram
+    participant News as News Source
+    participant Ing as Ingestion
+    participant Brain as Brain
+    participant Trade as Trading
+    participant Exch as Exchange
+    participant DB as Database
+    
+    News->>Ing: New article published
+    Ing->>DB: Store raw news
+    Ing->>Brain: Emit news event
+    Brain->>Brain: Sentiment analysis
+    Brain->>Trade: Generate signal
+    Trade->>Trade: Wait for confirmation (300s)
+    Trade->>Exch: Place order
+    Exch->>Trade: Order filled
+    Trade->>DB: Log trade
+    Trade->>Trade: Manage trailing stop
+    Trade->>Exch: Close position
+    Trade->>DB: Update PnL
+```
+
+## Configuration
+
+**Environment Variables (`.env`):**
+- `BINANCE_API_KEY`, `BINANCE_API_SECRET`
+- `HYPERLIQUID_PRIVATE_KEY`, `HYPERLIQUID_WALLET_ADDRESS`
+- `GROQ_API_KEY` - For LLM sentiment analysis
+- `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` - For alerts
+
+**Config Files:**
+- `config_test.json` - Paper trading config
+- `config/` - Additional configuration (TBD)
+
+## Deployment Modes
+
+### Paper Trading (Backtest)
+- Uses historical price data from database
+- No real orders placed
+- Monte Carlo simulation for robustness
+
+### Live Trading
+- Connects to real exchanges via API
+- Places actual orders with real capital
+- Telegram alerts for all trades
+
+## Key Design Decisions
+
+1. **Event-Driven Architecture** - Ensures no look-ahead bias in backtesting
+2. **Async/Await** - All I/O operations are non-blocking
+3. **Database-Centric** - SQLite as single source of truth
+4. **Modular Exchanges** - Easy to add new exchanges via `Exchange` interface
+5. **Fixed Risk Sizing** - Risk per trade based on event impact, not arbitrary %
+
+## Performance Characteristics
+
+- **Latency:** ~1-5s from news publish to signal generation
+- **Confirmation Window:** 300s (5 minutes)
+- **Trade Frequency:** ~1-5 trades per day (high-impact events only)
+- **Leverage:** 3x (configurable)
+- **Win Rate Target:** 60-70% (based on backtests)
+
+## Known Limitations
+
+1. **Slippage Model:** Currently static (0.1-0.2%), not based on order book depth
+2. **No Multi-Asset:** Primarily tuned for SOL/USD
+3. **Manual Event Curation:** High-quality events require manual verification
+4. **SQLite Scalability:** Will need migration to TimescaleDB for >1M price records
+
+## Future Enhancements
+
+See [ROADMAP.md](ROADMAP.md) for planned improvements.
+
+---
+
+**Last Updated:** 2026-01-30  
+**Version:** 2.9.2 "Hunter"
